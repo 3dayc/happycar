@@ -1,0 +1,359 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, width=device-width, user-scalable=no">
+    <link rel="stylesheet" href="../css/happycar.css">
+    <title>해피카</title>
+</head>
+<body>
+    <div id="skipNav" class="skip-navi">
+        <a href="#content" >바로가기</a>
+    </div>
+    <div class="wrap">
+        <section id="content" class="home-cont"> <!-- pannel-show toggle / menu-show toggle -->
+            <div class="cont-wrap">
+                <div class="map-area-container">
+                    <img src="../image/map_temp.png" alt="" style="object-fit:contain"> <!-- 지도 임시 이미지 -->
+                </div>
+                <header class="home-header-container">
+                    <button type="button" class="menu-btn">
+                        <span class="hidden">메뉴보기</span>
+                        <span class="menu"><em></em></span>
+                    </button>
+                    <div class="home-header" >
+                        <button type="button" class="area-sel-btn"> <!-- show toggle -->
+                            <span class="area-name">위례35단지</span>
+                            <span class="sel-arr"><span class="hidden">지역보기</span></span>
+                        </button>
+                        <button type="button" class="alarm-btn update">
+                            <span class="hidden">알림보기</span>
+                            <span class="ico"></span>
+                        </button> <!-- toggle update -->
+                    </div>
+                    <div class="area-extend" style="display:none">
+                        <ul class="area-list">
+                            <li>
+                                <span class="radio-wrap w100">
+                                    <span class="radio-form">
+                                        <input type="radio" id="radio1" name="area" checked="checked">
+                                        <span class="radio-type"></span>
+                                    </span>
+                                    <label for="radio1">위례 35단지</label>
+                                </span>
+                            </li>
+                            <li>
+                                <span class="radio-wrap w100">
+                                    <span class="radio-form">
+                                        <input type="radio" id="radio2" name="area">
+                                        <span class="radio-type"></span>
+                                    </span>
+                                    <label for="radio2">관악구 행복주택</label>
+                                </span>
+                            </li>
+                            <li>
+                                <span class="radio-wrap w100">
+                                    <span class="radio-form">
+                                        <input type="radio" id="radio3" name="area">
+                                        <span class="radio-type"></span>
+                                    </span>
+                                    <label for="radio3">관악구 휴먼피아</label>
+                                </span>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="booking-wrap">
+                        <di class="booking-box">
+                            <ul>
+                                <li class="active">위례 35단지</li> <!-- active toggel -->
+                                <li class="">관악구 행복주택</li>
+                                <li class="">관악구 휴먼피아</li>
+                            </ul>
+                        </di>
+                    </div>
+                    <nav class="nav">
+                        <div class="nav-container">
+                            <div class="nav-header">
+                                <button type="button" class="alarm-btn update">
+                                    <span class="hidden">알림보기</span>
+                                    <span class="ico"></span>
+                                </button>
+                                <p class="user">홍길동</p>
+                                <p class="grade vip">3,000 P</p>
+                            </div>
+                            <div class="nav-cont">
+                                <div class="menu-wrap">
+                                    <div class="banner">
+                                        <a href="#" class="banner-link">
+                                            <strong>
+                                                <span>할인의 혜택</span>
+                                                최대 50%
+                                            </strong>
+                                            <span class="guide">구독안내</span>
+                                        </a>
+                                    </div>
+                                    <ul class="menu-list">
+                                        <li class="menu-item"><!-- 메뉴 클릭시 active 추가 -->
+                                            <a href="#">이용내역</a>
+                                        </li>
+                                        <li class="menu-item">
+                                            <a href="#">쿠폰</a>
+                                        </li>
+                                        <li class="menu-item">
+                                            <a href="#">이벤트</a>
+                                        </li>
+                                         <li class="menu-item">
+                                            <a href="#">이벤트</a>
+                                        </li>
+                                        <li class="menu-item is-sub"> 
+                                            <a href="#">이용안내</a>
+                                            <ul class="sub-menu-list">
+                                                <li><a href="#">앱 이용방법</a></li>
+                                                <li><a href="#">요금안내</a></li>
+                                                <li><a href="#">보험안내</a></li>
+                                                <li><a href="#">약관</a></li>
+                                                <li><a href="#">행복카 에티켓</a></li>
+                                            </ul>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="menu-footer">
+                                <ul class="menu-footer-list">
+                                    <li>
+                                        <a href="#">마이<br>행복카</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">우리<br>행복카</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">행복카<br>BIZ</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </nav>
+                    <div class="nav-dim"></div>
+                </header>
+                <div class="pannel-container" style="height:calc(100% - 50px); bottom:-527px" > <!-- bottom js로 계산 요망 / calc(100% - 50px) 전체 높이값에서 50px 공백을 남겨두고 잡은 공간 -->
+                    <div class="pannel-board" >
+                        <div class="pannel-header"> <!-- 첫 화면 상태에서 pannel-header높이 값이 90으로 설정되어 있음 / 상단 pannel-open이 붙으면 60으로 설정됨 -->
+                            <ul class="transport-list">
+                                <li>
+                                    <button type="button">
+                                        <i class="ico"><img src="../image/ico_car.svg" alt="자동차"></i>
+                                        <em class="num">4</em>
+                                    </button>
+                                </li>
+                                <li>
+                                    <button type="button">
+                                        <i class="ico"><img src="../image/ico_cycle.svg" alt="자전거"></i>
+                                        <em class="num">4</em>
+                                    </button>
+                                </li>
+                                <li>
+                                    <button type="button">
+                                        <i class="ico"><img src="../image/ico_kick.svg" alt="킥보드"></i>
+                                        <em class="num">4</em>
+                                    </button>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="pannel-cont" >
+                            <div class="tran-wrap">
+                                <ul class="tran-list">
+                                    <li class="tran-item">
+                                        <div class="inner-wrap">
+                                            <div class="tran-thumbnail">
+                                                <img src="../image/img_car_temp.png" alt="">
+                                            </div>
+                                            <ul class="tran-info">
+                                                <li class="tran-name">레이<span class="">(41호 2107)</span></li>
+                                                <li class="cost">
+                                                    <em>5,000</em>원
+                                                    <span class="speed">120원/km</span>
+                                                </li>
+                                                <li class="etc">
+                                                    <span class="fuel"><i class="ico"><img alt="" src="../image/ico_fuel.svg"></i>경유 60%</span>
+                                                    <span class="wash"><i class="ico"><img alt="" src="../image/ico_fuel.svg"></i>세차</span>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                        <div class="btn-area">
+                                            <a href="#" class="btn product yellow shadow">예약하기</a>
+                                        </div>
+                                        <div class="booking-section">
+                                            <ul class="time-list">
+                                                <li>7.11 -</li>
+                                                <li>06:00</li>
+                                                <li>12:00</li>
+                                                <li>18:00</li>
+                                                <li>- 7.12</li>
+                                            </ul>
+                                            <span class="sec" style="width:25%; left:25%"></span>
+                                        </div>
+                                    </li>
+                                    <li class="tran-item stand"> <!-- 대기상태 stand -->
+                                        <div class="inner-wrap">
+                                            <div class="tran-thumbnail">
+                                                <img src="../image/img_car_temp.png" alt="">
+                                            </div>
+                                            <ul class="tran-info">
+                                                <li class="tran-name">레이<span class="">(41호 2107)</span></li>
+                                                <li class="cost">
+                                                    <em>5,000</em>원
+                                                    <span class="speed">120원/km</span>
+                                                </li>
+                                                <li class="etc">
+                                                    <span class="fuel"><i class="ico"><img alt="" src="../image/ico_fuel.svg"></i>경유 60%</span>
+                                                    <span class="wash"><i class="ico"><img alt="" src="../image/ico_fuel.svg"></i>세차</span>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                        <div class="btn-area">
+                                            <a href="#" class="btn product white shadow">예약대기</a>
+                                        </div>
+                                        <div class="booking-section">
+                                            <ul class="time-list">
+                                                <li>7.11 -</li>
+                                                <li>06:00</li>
+                                                <li>12:00</li>
+                                                <li>18:00</li>
+                                                <li>- 7.12</li>
+                                            </ul>
+                                            <span class="sec"></span>
+                                        </div>
+                                    </li>
+                                    <li class="tran-item">
+                                        <div class="inner-wrap">
+                                            <div class="tran-thumbnail">
+                                                <img src="../image/img_car_temp.png" alt="">
+                                            </div>
+                                            <ul class="tran-info">
+                                                <li class="tran-name">레이<span class="">(41호 2107)</span></li>
+                                                <li class="cost">
+                                                    <em>5,000</em>원
+                                                    <span class="speed">120원/km</span>
+                                                </li>
+                                                <li class="etc">
+                                                    <span class="fuel"><i class="ico"><img alt="" src="../image/ico_fuel.svg"></i>경유 60%</span>
+                                                    <span class="wash"><i class="ico"><img alt="" src="../image/ico_fuel.svg"></i>세차</span>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                        <div class="btn-area">
+                                            <a href="#" class="btn product yellow shadow">예약하기</a>
+                                        </div>
+                                        <div class="booking-section">
+                                            <ul class="time-list">
+                                                <li>7.11 -</li>
+                                                <li>06:00</li>
+                                                <li>12:00</li>
+                                                <li>18:00</li>
+                                                <li>- 7.12</li>
+                                            </ul>
+                                            <span class="sec" style="width:25%; left:25%"></span>
+                                        </div>
+                                    </li>
+                                </ul>
+                                <ul class="tran-list">
+                                    <li class="tran-item">
+                                        <div class="inner-wrap">
+                                            <div class="tran-thumbnail">
+                                                <img src="../image/img_bicycle_sideview.png" alt="">
+                                            </div>
+                                            <ul class="tran-info">
+                                                <li class="tran-name">일반 자전거 <span class="num"><em>2대</em></span></li>
+                                                <li class="cost">
+                                                    <em>2,000</em>원
+                                                    <span class="speed">500원/1분당</span>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                        <div class="btn-area">
+                                            <a href="#" class="btn product yellow shadow">예약하기</a>
+                                        </div>
+                                        <div class="booking-section">
+                                            <ul class="time-list">
+                                                <li>7.11 -</li>
+                                                <li>06:00</li>
+                                                <li>12:00</li>
+                                                <li>18:00</li>
+                                                <li>- 7.12</li>
+                                            </ul>
+                                            <span class="sec" style="width:25%; left:25%"></span>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <button type="button" class="qr-btn"><span>바로타기</span></button>
+                        <button type="button" class="search-btn"><span class="hidden">차량검색</span></button>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+    <script>
+
+        function pannelInit(){
+            let winH = window.innerHeight; 
+            let gap = 90; // 첫 화면에서 상단에 90px정도 나와 있는 상태 
+            let pannel = document.querySelector('.pannel-container'); 
+            pannel.style.bottom = `-${pannel.clientHeight - gap}px`; 
+        }
+
+        function nav(){
+            document.querySelector('.area-sel-btn').addEventListener('click', (e)=>{
+                const display = (document.querySelector('.area-extend').style.display == 'none')? 'block' : 'none'
+                e.currentTarget.classList.toggle('show')
+               document.querySelector('.area-extend').style.display = display;
+            })
+
+            document.querySelector('.menu-btn').addEventListener('click', (e)=>{
+                document.querySelector('.home-cont').classList.toggle('menu-show'); 
+            }); 
+
+            const contH = window.innerHeight - document.querySelector('.nav .nav-header').clientHeight - document.querySelector('.nav .menu-footer').clientHeight; 
+            const menu = document.querySelector('.nav .menu-list'); 
+            const menuArr = menu.querySelectorAll('.nav .menu-item')
+            document.querySelector('.nav-cont').style.height = `${contH}px`;
+
+            menu.addEventListener('click', (e)=>{
+                e.preventDefault();
+
+                const target = e.target;
+                while(!target.getAttribute('href')){
+                    target = target.parentNode; 
+                    if(target.nodeName == 'BODY'){
+                        target = null; 
+                        return
+                    }
+                }
+                const parent = target.parentNode;
+                menuArr.forEach((item, index) => {
+                    if(item.classList.contains('active') && !(item.classList.contains('is-sub'))){
+                        item.classList.remove('active'); 
+                    }
+
+                    if(parent == item){
+                        if(parent.classList.contains('is-sub')){
+                            item.classList.toggle('active'); 
+                        }else{
+                            item.classList.add('active'); 
+                        }
+
+                    }
+                })
+            })
+
+        }
+
+
+        pannelInit()
+        nav(); 
+
+    </script>
+</body>
+
+</html>

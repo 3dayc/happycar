@@ -44,6 +44,9 @@
 .home-cont .cont-wrap .home-header-container .area-extend{width:100%; position:absolute; left:0; top:58px; background:rgba(255,255,255,0.8); border-radius:15px; box-shadow:0 3px 10px rgba(00,00,00,0.2); padding:12px 0; z-index:2}
 .home-cont .cont-wrap .home-header-container .area-extend .area-list > li{padding:16px}
 .home-cont .cont-wrap .home-header-container .booking-wrap{display:flex; position:absolute; left:0; top:64px; width:100%; align-items:center; justify-content: space-between; }
+.home-cont .cont-wrap .home-header-container .booking-wrap .booking-box{width:100%; height:192px; background-color:#fff; opacity:0.8; border-radius:15px;}
+.home-cont .cont-wrap .home-header-container .booking-wrap .booking-box > ul > li{font-size:16px; margin:28px 0 0 18px; padding:0 0 0 32px; color:#1a1a1a; background:url(../image/com_radiobutton_off.svg) no-repeat;}
+.home-cont .cont-wrap .home-header-container .booking-wrap .booking-box > ul > li.active{margin:28px 0 0 15px; padding:0 0 0 35px;background:url(../image/com_radiobutton_on.svg) no-repeat; background-size: 30px;}
 .home-cont .cont-wrap .home-header-container .booking-wrap .booking-spot{display:inline-block; line-height:30px; vertical-align:top; font-size:13px; padding:0 16px; background:rgba(255,255,255,0.4) ; border-radius:18px; white-space:nowrap; text-overflow: ellipsis; overflow:hidden; max-width:45%; box-shadow:0 3px 10px rgba(00,00,00,0.2);}
 .home-cont .cont-wrap .home-header-container .booking-wrap .booking-btn{display:inline-block; line-height:30px; vertical-align:top; font-size:13px; border-radius:18px; box-shadow:0 3px 10px rgba(00,00,00,0.2); position:relative; width:83px; background:#fff; position:relative }
 .home-cont .cont-wrap .home-header-container .booking-wrap .booking-btn:before, 
@@ -57,6 +60,8 @@
 .home-cont .cont-wrap .pannel-container .pannel-board .pannel-header .transport-list > li button .ico{display:inline-block; width:30px; height:30px; }
 .home-cont .cont-wrap .pannel-container .pannel-board .pannel-header .transport-list > li button .ico img{width:100%; height:100%}
 .home-cont .cont-wrap .pannel-container .pannel-board .pannel-header .transport-list > li button .num{display:inline-block; width:18px; height:18px; text-align:center; line-height:18px; border-radius:100%; color:#1a1a1a; font-weight:600; font-size:12px; background:#ffd41d; position:absolute; right:5px; top:5px}
+.home-cont .cont-wrap .pannel-container .pannel-board .pannel-header .transport-list > li > p{font-size:13px; color:#d9dde2; margin:8px 0 0 8px}
+.home-cont .cont-wrap .pannel-container .pannel-board .pannel-header .transport-list > li > p > span{font-weight:bold;}
 .home-cont .cont-wrap .pannel-container .pannel-board .pannel-cont{background:#fefdfc; border-radius:18px 18px 0 0; height:calc(100% - 60px); overflow:auto; box-shadow:0 3px 10px rgba(00,00,00,0.2) }
 .home-cont .cont-wrap .pannel-container .pannel-board .pannel-cont .tran-wrap{padding:4px 0 16px}
 .home-cont .cont-wrap .pannel-container .pannel-board .pannel-cont .tran-list .tran-item{padding:16px 16px 18px; border-bottom:1px solid #f3f2f1}

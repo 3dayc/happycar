@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="31" height="31.5" viewBox="0 0 31 31.5">
+    <defs>
+        <filter id="사각형_17218" width="31" height="31" x="0" y="0" filterUnits="userSpaceOnUse">
+            <feOffset dy="2"/>
+            <feGaussianBlur result="blur" stdDeviation="1.5"/>
+            <feFlood flood-opacity=".18"/>
+            <feComposite in2="blur" operator="in"/>
+            <feComposite in="SourceGraphic"/>
+        </filter>
+        <filter id="타원_966" width="30" height="30" x=".5" y="1.5" filterUnits="userSpaceOnUse">
+            <feOffset dy="3"/>
+            <feGaussianBlur result="blur-2" stdDeviation="3"/>
+            <feFlood flood-color="#a16912" flood-opacity=".09"/>
+            <feComposite in2="blur-2" operator="in"/>
+            <feComposite in="SourceGraphic"/>
+        </filter>
+        <style>
+            .cls-1{fill:none}
+        </style>
+    </defs>
+    <g id="com_radiobutton_on" transform="translate(3.5 1.5)">
+        <path id="area" d="M0 0H24V24H0z" class="cls-1"/>
+        <g filter="url(#사각형_17218)" transform="translate(-3.5 -1.5)">
+            <g id="사각형_17218-2" fill="#1a1a1a" stroke="#1a1a1a" stroke-width="1.5px" transform="translate(4.5 2.5)">
+                <rect width="22" height="22" stroke="none" rx="11"/>
+                <rect width="20.5" height="20.5" x=".75" y=".75" class="cls-1" rx="10.25"/>
+            </g>
+        </g>
+        <g filter="url(#타원_966)" transform="translate(-3.5 -1.5)">
+            <circle id="타원_966-2" cx="6" cy="6" r="6" fill="#ffd41d" transform="translate(9.5 7.5)"/>
+        </g>
+    </g>
+</svg>
