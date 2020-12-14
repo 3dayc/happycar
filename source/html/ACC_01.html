@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+	<meta charset="UTF-8">
+    <meta name="viewport" content="initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, width=device-width, user-scalable=no">
+    <link rel="stylesheet" href="../css/happycar.css">
+    <link rel="stylesheet" href="../css/swiper.min.css">
+    <script src="../js/swiper.min.js"></script>
+	<title>해피카</title>
+</head>
+<body>
+    <div id="skipNav" class="skip-navi">
+        <a href="#content" >바로가기</a>
+    </div>
+    <div class="wrap">
+		<section id="content" class="intro-cont have-footer-fixed">
+            <div class="cont-wrap">
+                <div class="intro-wrap">
+                    <div class="intro-ch">
+                        <span class="ch-wrap">
+                            <span class="ch-form">
+                                <input type="checkbox" id="ch1">
+                                <span class="ch-type"></span>
+                            </span>
+                            <label for="ch1">다시보지 않기</label>
+                        </span>
+                    </div>
+                    
+                    <div class="intro-container">
+                        <div class="intro-inner swiper-container">
+                            <ul class="intro_list swiper-wrapper">
+                                <li class="intro-item swiper-slide">
+                                    <div class="swipe-txt-wrap">
+                                        <p class="swipe-tit">
+                                            <span>우리동네 우리차</span> 
+                                            행복카
+                                        </p>
+                                        <p class="swipe-txt">행복카는 우리동네 사람들과 함께 타는 <br>모빌리티 서비스입니다. <br>내가 사는 단지를 시작해보세요</p>
+                                    </div>
+                                    <img src="../image/img_splash_back.png" alt="" class="intro-img">
+                                </li>
+                                <li class="intro-item swiper-slide">
+                                    <div class="swipe-txt-wrap">
+                                        <p class="swipe-tit">
+                                            <span>우리동네 우리차</span> 
+                                            행복카
+                                        </p>
+                                        <p class="swipe-txt">행복카는 우리동네 사람들과 함께 타는 <br>모빌리티 서비스입니다. <br>내가 사는 단지를 시작해보세요</p>
+                                    </div>
+                                    <img src="../image/img_splash_back.png" alt="" class="intro-img">
+                                </li>
+                            </ul>
+                            <div class="swiper-pagination">
+                               <!--  <span class="page">01</span> -->
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+		</section>
+        <div class="fix-btn-area">
+            <a href="#" class="btn shadow yellow intro-btn"><span>내 단지 설정하고 시작하기</span></a>
+        </div>
+    </div>
+    <script>
+        var productSwipe = new Swiper('.intro-inner', {
+    	direction: 'vertical',
+ 		speed:500,
+		spaceBetween: 0,
+		autoHeight:true,
+		slidesOffsetBefore:0,
+        pagination: {
+        el: '.swiper-pagination',
+        clickable: true,
+        renderBullet: function (index, className) {
+          return '<span class="' + className + '">' + '<em>' + '0' +(index + 1) + '</em>' + '</span>';
+        },
+      },
+   
+  });
+    </script>
+	
+</body>
+</html>

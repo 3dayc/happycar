@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" id="ico_textdel" width="20" height="20" viewBox="0 0 20 20">
+    <defs>
+        <style>
+            .cls-3{fill:none;stroke:#fff;stroke-linecap:round;stroke-width:1.5px}
+        </style>
+    </defs>
+    <circle id="타원_247" cx="8" cy="8" r="8" fill="#4a4d5a" opacity="0.8" transform="translate(2 2)"/>
+    <path id="선_134" d="M6.655 0L0 6.655" class="cls-3" transform="translate(6.648 6.648)"/>
+    <path id="선_135" d="M0 0L6.655 6.655" class="cls-3" transform="translate(6.648 6.648)"/>
+</svg>

@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" id="ico_close" width="24" height="24" viewBox="0 0 24 24">
+    <defs>
+        <style>
+            .cls-2{fill:none;stroke:#1a1a1a;stroke-linecap:round;stroke-width:1.5px}
+        </style>
+    </defs>
+    <path id="_2424" fill="none" d="M0 0H24V24H0z"/>
+    <path id="선_99" d="M16.469 0L0 16.469" class="cls-2" transform="translate(3.766 3.766)"/>
+    <path id="선_100" d="M0 0L16.469 16.469" class="cls-2" transform="translate(3.766 3.766)"/>
+</svg>

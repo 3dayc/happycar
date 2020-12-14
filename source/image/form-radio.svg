@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 16.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 width="24px" height="48px" viewBox="0 0 24 48" enable-background="new 0 0 24 48" xml:space="preserve">
+<path fill="none" d="M0,0h24v24H0V0z"/>
+<path opacity="0.7" fill="#636673" enable-background="new    " d="M12,1L12,1c6.075,0,11,4.925,11,11l0,0c0,6.076-4.925,11-11,11
+	l0,0C5.925,23,1,18.076,1,12l0,0C1,5.925,5.925,1,12,1z"/>
+<circle opacity="0.3" fill="#010101" enable-background="new    " cx="12" cy="12" r="6"/>
+<g id="com_radiobutton_on" transform="translate(3.5 1.5)">
+	<g transform="translate(-3.5 -1.5)">
+		<g id="사각형_17218-2_11_" transform="translate(4.5 2.5)">
+			<path fill="#1A1A1A" d="M7.5,22.5L7.5,22.5c6.075,0,11,4.926,11,11l0,0c0,6.076-4.926,11-11,11l0,0c-6.075,0-11-4.924-11-11l0,0
+				C-3.5,27.426,1.424,22.5,7.5,22.5z"/>
+			<path fill="#1A1A1A" stroke="#1A1A1A" stroke-width="1.5" d="M7.5,23.25L7.5,23.25c5.661,0,10.25,4.59,10.25,10.25l0,0
+				c0,5.662-4.59,10.25-10.25,10.25l0,0c-5.661,0-10.25-4.588-10.25-10.25l0,0C-2.75,27.84,1.838,23.25,7.5,23.25z"/>
+		</g>
+	</g>
+	<g transform="translate(-3.5 -1.5)">
+		<circle id="타원_966-2_11_" fill="#FED41D" cx="12" cy="36" r="6"/>
+	</g>
+</g>
+</svg>

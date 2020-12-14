@@ -1,0 +1,17 @@
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 width="24px" height="48px" viewBox="0 0 24 48" enable-background="new 0 0 24 48" xml:space="preserve">
+<g>
+	<path fill="none" d="M0.065,24h24v24h-24V24z"/>
+	<g transform="translate(3.5 1.5) translate(-3.5 -1.5)">
+		<path fill="#1A1A1A" d="M12.065,25L12.065,25c6.075,0,11,4.925,11,11l0,0c0,6.075-4.925,11-11,11l0,0c-6.075,0-11-4.925-11-11l0,0
+			C1.065,29.925,5.99,25,12.065,25z"/>
+	</g>
+	<path opacity="0.983" fill="none" stroke="#FED157" stroke-width="2" stroke-linecap="round" enable-background="new    " d="
+		M6.318,35.881l3.661,3.926l7.964-7.553"/>
+</g>
+<path fill="none" d="M0.131,0h24v24h-24V0z"/>
+<path opacity="0.7" fill="#636673" enable-background="new    " d="M12.131,1L12.131,1c6.075,0,11,4.925,11,11l0,0
+	c0,6.075-4.925,11-11,11l0,0c-6.075,0-11-4.925-11-11l0,0C1.131,5.925,6.056,1,12.131,1z"/>
+<path opacity="0.5" fill="none" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round" enable-background="new    " d="
+	M6.384,11.881l3.661,3.926l7.964-7.553"/>
+</svg>
