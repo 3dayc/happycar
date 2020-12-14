@@ -99,6 +99,8 @@
 /* pannel-container show */
 .home-cont.pannel-show .cont-wrap .home-header-container{top:-56px}
 .home-cont.pannel-show .cont-wrap .home-header-container .home-header{opacity:0}
+.home-cont.pannel-show .cont-wrap .home-header-container.hom_01{top:24px}
+.home-cont.pannel-show .cont-wrap .home-header-container.hom_01 .home-header{opacity:1}
 .home-cont.pannel-show .cont-wrap .pannel-container{bottom:0 !important}
 .home-cont.pannel-show .cont-wrap .pannel-container .qr-btn{right:8px; bottom:24px; background:#242839; box-shadow:0 3px 10px rgba(00,00,00,0.2)}
 .home-cont.pannel-show .cont-wrap .pannel-container .pannel-board .pannel-header{height:60px}
@@ -209,7 +211,7 @@
 .car-intro-wrap .car-intro-container .tab-info-wrap .tab-content .how-group .how-cont{overflow:hidden}
 
 /* 공지 */
-.car-intro-wrap .car-intro-container .tab-info-wrap .tab-content .notice-wrap{position:absolute; left:0; width:100%; background:rgba(161, 105, 18, 0.9); height:40px; overflow:hidden; transition:height 0.4s}
+.car-intro-wrap .car-intro-container .tab-info-wrap .tab-content .notice-wrap{position:absolute; left:0; width:100%; background:rgba(161, 105, 18, 0.8); height:40px; overflow:hidden; transition:height 0.4s}
 .car-intro-wrap .car-intro-container .tab-info-wrap .tab-content .notice-wrap .show-hide-btn{display:inline-block; width:40px; height:40px; position:absolute; right:0; top:0}
 .car-intro-wrap .car-intro-container .tab-info-wrap .tab-content .notice-wrap .show-hide-btn:before{content:''; display:inline-block; width:12px; height:12px; position:absolute; top:50%; left:50%; transform:translate(-50%, -50%); background:url('../image/ico_drop.svg') no-repeat left top; }
 
