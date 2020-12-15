@@ -50,7 +50,11 @@ legend, caption{visibility:hidden; overflow:hidden; width:0; height:0; font-size
 .fix-btn-area .btn{display:inline-block; width:100%; height:56px; text-align:center; color:#1a1a1a; font-size:16px; line-height:1; border-radius:15px; line-height:56px; font-weight:600}
 .fix-btn-area-wide{padding:0; position:fixed; width:100%; left:0; bottom:0;}
 .fix-btn-area-wide .btn{display:inline-block; width:100%; height:56px; text-align:center; color:#1a1a1a; font-size:16px; line-height:1; line-height:56px; font-weight:600}
-.btn.yellow{background:#ffd41d}
+.fix-btn-area-wide.dark_gold{background-color:#d09e17; width:100%; height:64px;}
+.fix-btn-area-wide.dark_gold > div{display:flex; justify-content:space-between;}
+.fix-btn-area-wide.dark_gold > div > p{color:#fff; font-weight:bold; font-size:14px; margin:22px 0 0 16px}
+.fix-btn-area-wide.dark_gold > div > a{display:block; color:#1a1a1a; font-weight:bold; font-size:14px; background-color:#fff; margin:13px 20px 0 0; width:90px; height:40px; text-align:center; line-height:40px; border-radius:30px;}
+.btn.yellow{background-color:#ffd41d}
 .btn.gray{background-color:#4f5360;}
 .btn.gray:focus{background-color:#a16912;}
 .fix-btn-area .btn.shadow{box-shadow:0 4px 6px rgba(00,00,00,0.15), 0 4px 8px rgba(00,00,00,0.1)}
@@ -98,6 +102,7 @@ html, body{width:100%; height:100%; font-family:'Noto Sans KR', sans-serif; back
 .happy-header{height:56px;}
 .happy-header .header-default{width:100%; height:56px; position:fixed; left:0; top:0; z-index:10; background:#fcfcfc}
 .happy-header .header-default .back-btn{width:56px; height:56px; position:absolute; left:0; top:0; background:url('../image/ico_back.svg') no-repeat center center}
+.happy-header .header-default .happy-logo{width:102px; height:38px; position:absolute; left:24px; top:69px; background:url('../image/img_login_logo_happycar.svg') no-repeat center center}
 .happy-header .header-default .page-tit{font-size:18px; text-align:center; color:#1a1a1a; line-height:56px; font-weight:500; white-space:nowrap;}
 .happy-cont{padding-top:18px; min-height:calc(100% - 56px)}
 .happy-cont.pb104{padding-bottom:104px}
