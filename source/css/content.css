@@ -254,3 +254,32 @@
 .cont-wrap article p {text-align:center;}
 .cont-wrap article p:nth-of-type(1) {margin-top:18px; font-size:14px; color:#7b7d81; font-weight:bold;}
 .cont-wrap article p:nth-of-type(2) {font-size:12px; color:#7b7d81}
+
+/* happyCar loin-box */
+.cont-wrap .login-box{position:relative;}
+.cont-wrap .login-box > span{display:block; position:relative; top:96px; width:119px; height:24px; background-color:#ffd41d; opacity:0.4;}
+.cont-wrap .login-box > p{position:relative; font-size:40px; color:#64230b; margin-top:40px; font-weight:bold; padding-left:4px;}
+.cont-wrap .login-box > p.first{font-size:30px; font-weight:500; margin-bottom:-76px;}
+.cont-wrap .login-box > img{position:absolute; right:0; top:0}
+.cont-wrap .login-box > a{float:right; font-size:13px; color:#939393; text-decoration-line:underline; font-weight:500; margin:8px 0 18px 0;}
+
+/* happyCar loin-box2 */
+.cont-wrap .login-box2 > div{display:flex; justify-content:space-between; margin-top:8px;}
+.cont-wrap .login-box2 > div > p{color:#626572;}
+.cont-wrap .login-box2 > div > p > span{font-weight:bold; font-size:14px}
+.cont-wrap .login-box2 > p{font-size:12px; color:#626572; margin-top:12px}
+.cont-wrap .login-box2 > div > button{color:#626572; font-size:14px; width:120px; height:40px; border:1px solid #626572; border-radius:6px;}
+
+/* happyCar loin-box3 */
+.cont-wrap .login-box3 > ul{display:flex; justify-content:space-around;}
+.cont-wrap .login-box3 > ul > li{color:#626572; text-align:center;}
+.cont-wrap .login-box3 > ul > li:nth-child(1) > a{display:block; width:48px; height:48px; background:url('../image/img_login_kakao.png') no-repeat; margin-bottom:7px;}
+.cont-wrap .login-box3 > ul > li:nth-child(2) > a{display:block; width:48px; height:48px; background:url('../image/img_login_naver.png') no-repeat; margin-bottom:7px;}
+.cont-wrap .login-box3 > ul > li:nth-child(3) > a{display:block; width:48px; height:48px; background:url('../image/img_login_apple.png') no-repeat; margin-bottom:7px;}
+.cont-wrap .login-box3 > ul > li:nth-child(4) > a{display:block; width:48px; height:48px; background:url('../image/img_login_google.png') no-repeat; margin-bottom:7px;}
+
+/* 행복카 아이디 찾기 */
+.cont-wrap article .tmoney {text-indent:-9999px; background:url(../image/img_tmoney.svg) no-repeat; background-color:#f0f0f0; margin:0 auto; border-radius:50%; width:102px; height:102px;margin-top:19px;}
+
+/* 행복카 비밀번호 찾기 */
+.cont-wrap article .pass_search {text-indent:-9999px; background:url(../image/img_find_password.svg) no-repeat; background-color:#f0f0f0; margin:0 auto; border-radius:50%; width:102px; height:102px;margin-top:19px;}

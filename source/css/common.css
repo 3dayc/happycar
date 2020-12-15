@@ -49,13 +49,11 @@ legend, caption{visibility:hidden; overflow:hidden; width:0; height:0; font-size
 .fix-btn-area{padding:24px 16px; position:fixed; width:100%; left:0; bottom:0; z-index:2;}
 .fix-btn-area .btn{display:inline-block; width:100%; height:56px; text-align:center; color:#1a1a1a; font-size:16px; line-height:1; border-radius:15px; line-height:56px; font-weight:600}
 .fix-btn-area-wide{padding:0; position:fixed; width:100%; left:0; bottom:0;}
-.fix-btn-area-wide .btn{display:inline-block; width:100%; height:56px; text-align:center; color:#1a1a1a; font-size:16px; line-height:1; line-height:56px; font-weight:600}
-.fix-btn-area-wide.dark_gold{background-color:#d09e17; width:100%; height:64px;}
+.fix-btn-area-wide .btn{display:inline-block; width:100%; height:56px; text-align:center; color:#1a1a1a; font-size:16px; line-height:1; line-height:56px; font-weight:600; border-radius:0;}
+.fix-btn-area-wide.dark_gold{background-color:#d09e17; width:100%; height:64px; position:fixed; left:0; bottom:0;}
 .fix-btn-area-wide.dark_gold > div{display:flex; justify-content:space-between;}
 .fix-btn-area-wide.dark_gold > div > p{color:#fff; font-weight:bold; font-size:14px; margin:22px 0 0 16px}
-.fix-btn-area-wide.dark_gold > div > a{display:block; color:#1a1a1a; font-weight:bold; font-size:14px; background-color:#fff; margin:13px 20px 0 0; width:90px; height:40px; text-align:center; line-height:40px; border-radius:30px;}
-.btn.yellow{background-color:#ffd41d}
-.btn.gray{background-color:#4f5360;}
+.fix-btn-area-wide.dark_gold > div > a{display:block; color:#1a1a1a; font-weight:bold; font-size:14px; background-color:#fff; margin:13px 18px 0 0; width:90px; height:40px; text-align:center; line-height:40px; border-radius:30px;}
 .btn.gray:focus{background-color:#a16912;}
 .fix-btn-area .btn.shadow{box-shadow:0 4px 6px rgba(00,00,00,0.15), 0 4px 8px rgba(00,00,00,0.1)}
 .fix-btn-area-wide .shadow{box-shadow:0px -3px 10px 0px rgba(0,0,0,0.2);}
@@ -66,29 +64,37 @@ legend, caption{visibility:hidden; overflow:hidden; width:0; height:0; font-size
 button.disable{color:#b9bbc1; background-color:#d6d6d9;}
 button.search{width:24px; height:24px; background:url(../image/ico_search_n.svg); position:absolute; top:11px; right:11px;}
 button.search::before{content: "|"; position:absolute; right:28px; bottom:2px; color:#b8b6b7;}
-.btn-area.btn2 > .btn{width:50%; }
-.btn-area.btn2 .btn + .btn{margin-top:0}
+.btn-area.btn-login > .btn{width:50%;}
+.btn-area.btn-login .btn + .btn{margin-top:0}
 .btn{display:inline-block; width:100%; height:48px; text-align:center; color:#1a1a1a; line-height:1; font-size:15px; border-radius:6px; line-height:48px; font-weight:500; white-space:nowrap;}
+.btn-login{display:inline-block; width:100%; height:56px; text-align:center; color:#1a1a1a; line-height:1; font-size:16px; border-radius:15px; line-height:56px; font-weight:500; white-space:nowrap; margin-bottom:20px;}
 .btn.large{height:56px; font-size:16px; border-radius:15px; line-height:56px; font-weight:600}
 .btn.product{height:40px; font-size:16px; border-radius:10px; line-height:40px;}
-.btn + .btn{margin-top:10px}
-.btn.yellow{background:#fdd056}
+.btn + .btn{margin-top:0}
+.btn.yellow,.btn-login.yellow{background:#ffd41d}
 .btn.gray{background:#878e98; color:#fff;}
+.btn-login.gray{background:#d6d6d9; color:#b9bbc1}
+.btn-login.gray:focus{background-color:#ffd41d; color:#1a1a1a; outline:none; box-shadow:0 4px 6px rgba(00,00,00,0.15), 0 4px 8px rgba(00,00,00,0.1)}
 .btn.navy{background:#242839; color:#ffd41d;}
 .btn.white{background:#fff; color:#1a1a1a;}
-.btn.shadow{box-shadow:0 4px 6px rgba(00,00,00,0.15), 0 4px 8px rgba(00,00,00,0.1)}
+.btn.shadow,.btn-login.shadow{box-shadow:0 4px 6px rgba(00,00,00,0.15), 0 4px 8px rgba(00,00,00,0.1)}
 
 /* input */
 input {height:48px; background-color:#f0f0f0; border-radius:6px !important; padding: 12px 12px 12px 16px; font-size:16px; width:100%;}
 input::placeholder{color:#ccccd0;}
-input:focus{background:url('../image/ico_textdel.svg') no-repeat right center; background-origin:content-box; border:2px solid #1a1a1a; outline:0px none}
+input:focus{background:url('../image/ico_textdel.svg') no-repeat right center; background-origin:content-box; border:2px solid #1a1a1a; outline:none}
 input.text-del:focus{background:url('../image/ico_textdel.svg') no-repeat right center; background-origin:content-box; border:2px solid #1a1a1a; outline:0px none}
 input.search.text-del:focus{padding: 12px 48px 12px 16px;}
 input.search.text-del:focus + button.search{background:url(../image/ico_search_a.svg);}
+input.happy-login{background-color:#fcfcfc; border-radius:0 !important; padding-left:0; font-size:20px; color:#a16912; font-weight:300; height:52px; margin-top:25px; border-top:2px solid #fcfcfc; border-left:2px solid #fcfcfc; border-right:2px solid #fcfcfc; border-bottom:3px solid #ffe98e}
+input.happy-login:focus{border-top:2px solid #fcfcfc; border-left:2px solid #fcfcfc; border-right:2px solid #fcfcfc; border-bottom: 3px solid #925710; background:none; box-sizing:border-box;}
+.login-box input.happy-login:nth-of-type(2){margin-top:18px;}
 
 /* line */
 .full-line{width:100%; height:1px; border-top:1px solid #dbdbde; margin:24px 0; position:relative;}
+.full-line2{width:100%; height:1px; border-top:1px solid #dbdbde; margin:40px 0; position:relative;}
 .full-line span{position:absolute; padding:10px 7px; top:-21px; left:50%; transform:translate(-50%); background-color:#fcfcfc; color:#999999; font-size:13px; font-weight: 500;}
+.full-line2 span{position:absolute; padding:10px 7px; top:-21px; left:50%; transform:translate(-50%); background-color:#fcfcfc; color:#242839; font-size:14px; font-weight: bold;}
 
 /*****************************   layout ****************************/
 html, body{width:100%; height:100%; font-family:'Noto Sans KR', sans-serif; background:#fcfcfc; letter-spacing:-0.5px; min-width:280px;}
@@ -102,6 +108,7 @@ html, body{width:100%; height:100%; font-family:'Noto Sans KR', sans-serif; back
 .happy-header{height:56px;}
 .happy-header .header-default{width:100%; height:56px; position:fixed; left:0; top:0; z-index:10; background:#fcfcfc}
 .happy-header .header-default .back-btn{width:56px; height:56px; position:absolute; left:0; top:0; background:url('../image/ico_back.svg') no-repeat center center}
+.happy-header .header-default .close-btn{width:56px; height:56px; position:absolute; left:0; top:0; background:url('../image/ico_close.svg') no-repeat center center}
 .happy-header .header-default .happy-logo{width:102px; height:38px; position:absolute; left:24px; top:69px; background:url('../image/img_login_logo_happycar.svg') no-repeat center center}
 .happy-header .header-default .page-tit{font-size:18px; text-align:center; color:#1a1a1a; line-height:56px; font-weight:500; white-space:nowrap;}
 .happy-cont{padding-top:18px; min-height:calc(100% - 56px)}
