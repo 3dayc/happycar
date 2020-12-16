@@ -283,3 +283,22 @@
 
 /* 행복카 비밀번호 찾기 */
 .cont-wrap article .pass_search {text-indent:-9999px; background:url(../image/img_find_password.svg) no-repeat; background-color:#f0f0f0; margin:0 auto; border-radius:50%; width:102px; height:102px;margin-top:19px;}
+
+/* card-box */
+.cont-wrap .card-box{position:relative; background-color:#ffd41d; width:300px; height:180px; margin:0 auto; border-radius:11px; box-shadow:0 4px 6px rgba(00,00,00,0.15), 0 4px 8px rgba(00,00,00,0.1)}
+.cont-wrap .card-box > div{display:flex; justify-content:space-between;}
+.cont-wrap .card-box > div > div{text-indent:-9999px; background:url(../image/img_user_profile.svg); width:84px; height:88px;}
+.cont-wrap .card-box > div > p{margin: 20px 20px 0 0; font-size:13px; color:#a16912; font-weight:600;}
+.cont-wrap .card-box > p:nth-of-type(1){font-size:13px; color:#d09e17; margin-left:15px; margin-top:30px;}
+.cont-wrap .card-box > p:nth-of-type(2){font-size:16px; color:#1a1a1a; margin-left:15px; font-weight:bold;}
+.cont-wrap .card-box > p:nth-of-type(3){position:absolute; bottom:-40px; left:33px; color:#a16912; font-size:16px;}
+.fix-btn-area > p{font-size:15px; color:#192850; text-decoration-line:underline; text-align:center; margin-top:24px;}
+
+/* 정보입력 */
+.cont-wrap .alert-box{width:100%; height:60px;border-radius: 6px; margin-bottom:16px; background:url(../image/ico_caution.svg) no-repeat left center; background-color:#fff2bc; background-position-x:12px;}
+.cont-wrap .alert-box > p{margin-left:50px; padding-top:11px; color:#a16912; font-size:13px; white-space:nowrap;}
+.cont-wrap .pers-list .pers-item.info-first > .div{margin-bottom: 6px;}
+.cont-wrap .pers-list .pers-item.info-third{margin-top: 10px;}
+.cont-wrap .pers-list .pers-item.info-fourth{margin-top: 20px;}
+.cont-wrap .email-point{font-size:13px; color:#939393; margin-top:8px;}
+.cont-wrap .email-point > span{color:#a16912}

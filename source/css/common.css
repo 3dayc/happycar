@@ -73,6 +73,7 @@ button.search::before{content: "|"; position:absolute; right:28px; bottom:2px; c
 .btn + .btn{margin-top:0}
 .btn.yellow,.btn-login.yellow{background:#ffd41d}
 .btn.gray{background:#878e98; color:#fff;}
+.btn.gray2{background:#d6d6d9; color:#b9bbc1;}
 .btn-login.gray{background:#d6d6d9; color:#b9bbc1}
 .btn-login.gray:focus{background-color:#ffd41d; color:#1a1a1a; outline:none; box-shadow:0 4px 6px rgba(00,00,00,0.15), 0 4px 8px rgba(00,00,00,0.1)}
 .btn.navy{background:#242839; color:#ffd41d;}
@@ -84,6 +85,8 @@ input {height:48px; background-color:#f0f0f0; border-radius:6px !important; padd
 input::placeholder{color:#ccccd0;}
 input:focus{background:url('../image/ico_textdel.svg') no-repeat right center; background-origin:content-box; border:2px solid #1a1a1a; outline:none}
 input.text-del:focus{background:url('../image/ico_textdel.svg') no-repeat right center; background-origin:content-box; border:2px solid #1a1a1a; outline:0px none}
+input.text-hide{background:url('../image/ico_hide_n.svg') no-repeat right center; background-origin:content-box; outline:none; background-color:#f0f0f0;}
+input.text-hide:focus{background:url('../image/ico_hide_n.svg') no-repeat right center; background-origin:content-box; border:2px solid #1a1a1a; outline:0px none; background-color:transparent;}
 input.search.text-del:focus{padding: 12px 48px 12px 16px;}
 input.search.text-del:focus + button.search{background:url(../image/ico_search_a.svg);}
 input.happy-login{background-color:#fcfcfc; border-radius:0 !important; padding-left:0; font-size:20px; color:#a16912; font-weight:300; height:52px; margin-top:25px; border-top:2px solid #fcfcfc; border-left:2px solid #fcfcfc; border-right:2px solid #fcfcfc; border-bottom:3px solid #ffe98e}

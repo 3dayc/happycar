@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="360.474" height="240" viewBox="0 0 360.474 240">
+    <defs>
+        <filter id="qcqws4hwya" width="360" height="191" x=".474" y="48" filterUnits="userSpaceOnUse">
+            <feOffset dy="5"/>
+            <feGaussianBlur result="blur" stdDeviation="15"/>
+            <feFlood flood-color="#a16912"/>
+            <feComposite in2="blur" operator="in"/>
+            <feComposite in="SourceGraphic"/>
+        </filter>
+        <filter id="q0kaqispfb" width="360" height="240" x="0" y="0" filterUnits="userSpaceOnUse">
+            <feOffset dy="5"/>
+            <feGaussianBlur result="blur-2" stdDeviation="10"/>
+            <feFlood flood-opacity=".161"/>
+            <feComposite in2="blur-2" operator="in"/>
+            <feComposite in="SourceGraphic"/>
+        </filter>
+        <filter id="vwafv3ck3c" width="330" height="210" x="15" y="3" filterUnits="userSpaceOnUse">
+            <feOffset dy="-7"/>
+            <feGaussianBlur result="blur-3" stdDeviation="5"/>
+            <feFlood flood-color="#fff"/>
+            <feComposite in2="blur-3" operator="in"/>
+            <feComposite in="SourceGraphic"/>
+        </filter>
+        <linearGradient id="s3m8tyyfsd" x1=".5" x2=".5" y2="1" gradientUnits="objectBoundingBox">
+            <stop offset="0" stop-color="#ffdd4a"/>
+            <stop offset="1" stop-color="#ffd41d"/>
+        </linearGradient>
+    </defs>
+    <g>
+        <g>
+            <g filter="url(#qcqws4hwya)" transform="translate(0 -89) translate(1 10) translate(-1 79)">
+                <rect width="270" height="101" fill="#1a1a1a" opacity="0.998" rx="23" transform="translate(45.47 88)"/>
+            </g>
+        </g>
+        <g>
+            <g filter="url(#q0kaqispfb)" transform="translate(0 -89) translate(30 114) translate(-30 -25)">
+                <rect width="300" height="180" fill="#ffd834" rx="15" transform="translate(30 25)"/>
+            </g>
+            <g filter="url(#vwafv3ck3c)" transform="translate(0 -89) translate(30 114) translate(-30 -25)">
+                <rect width="300" height="180" fill="url(#s3m8tyyfsd)" rx="9" transform="translate(30 25)"/>
+            </g>
+        </g>
+    </g>
+</svg>

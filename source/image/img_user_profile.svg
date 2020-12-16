@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="84" height="88" viewBox="0 0 84 88">
+    <defs>
+        <filter id="사각형_16016" width="84" height="84" x="0" y="8" filterUnits="userSpaceOnUse">
+            <feOffset dy="5"/>
+            <feGaussianBlur result="blur" stdDeviation="5"/>
+            <feFlood flood-opacity=".161"/>
+            <feComposite in2="blur" operator="in"/>
+            <feComposite in="SourceGraphic"/>
+        </filter>
+        <filter id="사각형_17233" width="84" height="84" x="0" y="-4" filterUnits="userSpaceOnUse">
+            <feOffset dy="-7"/>
+            <feGaussianBlur result="blur-2" stdDeviation="5"/>
+            <feFlood flood-color="#fff" flood-opacity=".569"/>
+            <feComposite in2="blur-2" operator="in"/>
+            <feComposite in="SourceGraphic"/>
+        </filter>
+        <linearGradient id="linear-gradient" x1=".5" x2=".5" y2="1" gradientUnits="objectBoundingBox">
+            <stop offset="0" stop-color="#ffd41d"/>
+            <stop offset="1" stop-color="#ffd41d" stop-opacity="0"/>
+        </linearGradient>
+        <clipPath id="clip-path">
+            <path id="사각형_18713" d="M0 0H84V88H0z" class="cls-1" transform="translate(116 115)"/>
+        </clipPath>
+        <style>
+            .cls-1{fill:#8f7faf;opacity:0}.cls-7{fill:#ffd41d;stroke:#ffd41d;stroke-width:1.5px}
+        </style>
+    </defs>
+    <g id="img_user_profile" transform="translate(-116 -115)">
+        <g id="마스크_그룹_160" clip-path="url(#clip-path)">
+            <g id="그룹_42669">
+                <path id="사각형_18273" d="M0 0H84V90H0z" class="cls-1" transform="translate(116 114)"/>
+                <g filter="url(#사각형_16016)" transform="translate(116 115)">
+                    <rect id="사각형_16016-2" width="54" height="54" fill="#fff" opacity="0.461" rx="27" transform="translate(15 18)"/>
+                </g>
+                <g filter="url(#사각형_17233)" transform="translate(116 115)">
+                    <rect id="사각형_17233-2" width="54" height="54" fill="#fff" rx="27" transform="translate(15 18)"/>
+                </g>
+            </g>
+        </g>
+        <g id="ico" transform="translate(147.461 147.88)">
+            <circle id="타원_989" cx="4.5" cy="4.5" r="4.5" fill="#ffd41d" opacity="0.3" transform="translate(5.539 1.12)"/>
+            <path id="패스_30469" fill="url(#linear-gradient)" d="M10.371 0a10.371 10.371 0 0 1 10.371 10.371C20.742 16.1 0 16.1 0 10.371A10.371 10.371 0 0 1 10.371 0z" opacity="0.3" transform="translate(0 12.961)"/>
+            <path id="패스_30467" d="M969.911 408.323a5.412 5.412 0 1 0-5.412-5.412 5.418 5.418 0 0 0 5.412 5.412zm0-9.621a4.209 4.209 0 1 1-4.209 4.209 4.214 4.214 0 0 1 4.209-4.211z" class="cls-7" transform="translate(-959.541 -397.5)"/>
+            <path id="패스_30468" d="M970.722 407.5a10.233 10.233 0 0 0-10.222 10.222v1.432a.6.6 0 1 0 1.2 0v-1.432a9.019 9.019 0 0 1 18.039 0v1.432a.6.6 0 1 0 1.2 0v-1.432a10.233 10.233 0 0 0-10.217-10.222z" class="cls-7" transform="translate(-960.351 -395.474)"/>
+        </g>
+    </g>
+</svg>
