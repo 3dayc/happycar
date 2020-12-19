@@ -45,8 +45,16 @@ legend, caption{visibility:hidden; overflow:hidden; width:0; height:0; font-size
 .radio-wrap label{display:inline-block; font-size:16px; padding-left:8px; line-height:24px; vertical-align:top; width:calc(100% - 24px - 8px);}
 
 /* 버튼 */
-.btn-area .btn{display:inline-block; width:100%; height:48px; text-align:center; color:#1a1a1a; font-size:16px; line-height:1; border-radius:6px; line-height:48px; font-weight:500;}
+button.disable{color:#b9bbc1; background-color:#d6d6d9;}
+button.search{width:24px; height:24px; background:url(../image/ico_search_n.svg); position:absolute; top:11px; right:11px;}
+button.search::before{content: "|"; position:absolute; right:28px; bottom:2px; color:#b8b6b7;}
+.btn{display:inline-block; width:100%; height:48px; text-align:center; color:#1a1a1a; line-height:1; font-size:15px; border-radius:6px; line-height:48px; font-weight:500; white-space:nowrap;}
+.btn-area .btn{display:inline-block; width:100%; height:48px; text-align:center; color:#1a1a1a; font-size:15px; line-height:1; border-radius:6px; line-height:48px; font-weight:bold;}
+.btn-area.btn-login > .btn{width:50%;}
+.btn-area.btn-login .btn + .btn{margin-top:0}
+.btn-login{display:inline-block; width:100%; height:56px; text-align:center; color:#1a1a1a; line-height:1; font-size:16px; border-radius:15px; line-height:56px; font-weight:500; white-space:nowrap; margin-bottom:20px;}
 .fix-btn-area{padding:24px 16px; position:fixed; width:100%; left:0; bottom:0; z-index:2;}
+.fix-btn-area.white{background-color:#fcfcfc; box-shadow:0 4px 6px rgba(00,00,00,0.2), 0 4px 8px rgba(00,00,00,0.2)}
 .fix-btn-area .btn{display:inline-block; width:100%; height:56px; text-align:center; color:#1a1a1a; font-size:16px; line-height:1; border-radius:15px; line-height:56px; font-weight:600}
 .fix-btn-area-wide{padding:0; position:fixed; width:100%; left:0; bottom:0;}
 .fix-btn-area-wide .btn{display:inline-block; width:100%; height:56px; text-align:center; color:#1a1a1a; font-size:16px; line-height:1; line-height:56px; font-weight:600; border-radius:0;}
@@ -54,25 +62,18 @@ legend, caption{visibility:hidden; overflow:hidden; width:0; height:0; font-size
 .fix-btn-area-wide.dark_gold > div{display:flex; justify-content:space-between;}
 .fix-btn-area-wide.dark_gold > div > p{color:#fff; font-weight:bold; font-size:14px; margin:22px 0 0 16px}
 .fix-btn-area-wide.dark_gold > div > a{display:block; color:#1a1a1a; font-weight:bold; font-size:14px; background-color:#fff; margin:13px 18px 0 0; width:90px; height:40px; text-align:center; line-height:40px; border-radius:30px;}
-.btn.gray:focus{background-color:#a16912;}
 .fix-btn-area .btn.shadow{box-shadow:0 4px 6px rgba(00,00,00,0.15), 0 4px 8px rgba(00,00,00,0.1)}
 .fix-btn-area-wide .shadow{box-shadow:0px -3px 10px 0px rgba(0,0,0,0.2);}
 .btn_resend{width:35%; height:48px; border:1.5px solid #d9d9d9; border-radius:6px; font-size:15px;}
 .btn_resend:hover{border:1.5px solid #1a1a1a; outline:0px none;}
 .btn_auth{width:35%; height:48px; border:1.5px solid #d9d9d9; border-radius:6px; font-size:15px; background-color:#4f5360; color:#fff;}
 .btn_auth:hover{background-color:#242839; outline:0px none;}
-button.disable{color:#b9bbc1; background-color:#d6d6d9;}
-button.search{width:24px; height:24px; background:url(../image/ico_search_n.svg); position:absolute; top:11px; right:11px;}
-button.search::before{content: "|"; position:absolute; right:28px; bottom:2px; color:#b8b6b7;}
-.btn-area.btn-login > .btn{width:50%;}
-.btn-area.btn-login .btn + .btn{margin-top:0}
-.btn{display:inline-block; width:100%; height:48px; text-align:center; color:#1a1a1a; line-height:1; font-size:15px; border-radius:6px; line-height:48px; font-weight:500; white-space:nowrap;}
-.btn-login{display:inline-block; width:100%; height:56px; text-align:center; color:#1a1a1a; line-height:1; font-size:16px; border-radius:15px; line-height:56px; font-weight:500; white-space:nowrap; margin-bottom:20px;}
 .btn.large{height:56px; font-size:16px; border-radius:15px; line-height:56px; font-weight:600}
 .btn.product{height:40px; font-size:16px; border-radius:10px; line-height:40px;}
 .btn + .btn{margin-top:0}
 .btn.yellow,.btn-login.yellow{background:#ffd41d}
-.btn.gray{background:#878e98; color:#fff;}
+.btn.gray{background:#878e98; color:#fff; font-weight:300;}
+.btn.gray:focus{background-color:#a16912;}
 .btn.gray2{background:#d6d6d9; color:#b9bbc1;}
 .btn-login.gray{background:#d6d6d9; color:#b9bbc1}
 .btn-login.gray:focus{background-color:#ffd41d; color:#1a1a1a; outline:none; box-shadow:0 4px 6px rgba(00,00,00,0.15), 0 4px 8px rgba(00,00,00,0.1)}
@@ -126,7 +127,7 @@ html, body{width:100%; height:100%; font-family:'Noto Sans KR', sans-serif; back
 .popup-wrap .popup-info .popup-cont .pop-img{display:inline-block; width:166px; margin-bottom:8px}
 .popup-wrap .popup-info .popup-cont .pop-img img{width:100%; height:auto}
 .popup-wrap .popup-info .popup-cont .pop-txt{font-size:16px; line-height:24px; text-align:center; color:#1a1a1a}
-.popup-wrap .popup-info .popup-cont .pop-txt.em{color:#a16912 }
+.popup-wrap .popup-info .popup-cont .pop-txt.em{color:#a16912; font-weight:500;}
 .popup-wrap .popup-info .popup-cont .pop-txt strong{font-weight:500}
 .popup-wrap .popup-info .popup-cont .pop-txt + .pop-txt{margin-top:6px}
 .popup-wrap .popup-info .footer-btn-area{display:flex; font-size:0; margin:0 -20px -20px}

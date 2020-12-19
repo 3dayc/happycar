@@ -300,8 +300,10 @@
 .cont-wrap .pers-list .pers-item.info-first > .div{margin-bottom: 6px;}
 .cont-wrap .pers-list .pers-item.info-third{margin-top: 10px;}
 .cont-wrap .pers-list .pers-item.info-fourth{margin-top: 20px;}
-.cont-wrap .email-point{font-size:13px; color:#939393; margin-top:8px;}
-.cont-wrap .email-point > span{color:#a16912}
+.cont-wrap .email-point{font-size:13px; color:#939393;}
+.cont-wrap .email-point:nth-of-type(1){margin-top:8px;}
+.cont-wrap .email-point:nth-of-type(2){background-color:rgba(255, 204 , 0, 0.1); width:219px;}
+.cont-wrap .email-point > span{color:#a16912;}
 
 /* 우편번호 찾기 */
 .cont-wrap.search > .div > p:nth-of-type(1){margin-top:8px; font-size:13px; color:#4a4d5a}
