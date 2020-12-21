@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" id="ico_edit_n" width="24" height="24" viewBox="0 0 24 24">
+    <defs>
+        <style>
+            .cls-2{fill:#626572}
+        </style>
+    </defs>
+    <path id="패스_31448" d="M285.237 994.085h3.333a1 1 0 0 0 .707-.293l9.167-9.167a1 1 0 0 0 0-1.414l-3.333-3.333a1 1 0 0 0-1.414 0l-9.167 9.167a1 1 0 0 0-.293.707v3.333a1 1 0 0 0 1 1zm1-3.918L294.4 982l1.919 1.918-8.167 8.167h-1.919z" class="cls-2" transform="translate(-280.237 -976.585)"/>
+    <path id="패스_31449" d="M300.237 996.252h-15a1 1 0 1 0 0 2h15a1 1 0 0 0 0-2z" class="cls-2" transform="translate(-280.237 -976.585)"/>
+</svg>

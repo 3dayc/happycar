@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="25.8" height="25.8" viewBox="0 0 25.8 25.8">
+    <defs>
+        <style>
+            .cls-2{stroke-width:1.8px;fill:none;stroke:#242839;stroke-linecap:round;stroke-linejoin:round}
+        </style>
+    </defs>
+    <g id="ico_calendar_safe" transform="translate(.9 .9)">
+        <path id="선_169" d="M0 0L15 0" class="cls-2" transform="translate(3.5 8.5)"/>
+        <path id="선_170" d="M0 0L0 3" class="cls-2" transform="translate(16.262 2.5)"/>
+        <path id="선_171" d="M0 0L0 3" class="cls-2" transform="translate(7.738 2.5)"/>
+        <g id="사각형_18119" fill="none" stroke="#242839" stroke-width="1.8px" transform="translate(2.5 3)">
+            <rect width="19" height="19" stroke="none" rx="2"/>
+            <rect width="17.2" height="17.2" x=".9" y=".9" rx="1.1"/>
+        </g>
+        <path id="패스_31692" d="M1209.8 7788.81l1.7 1.8 3.8-3.7" class="cls-2" transform="translate(-1200.597 -7774.414)"/>
+    </g>
+</svg>
