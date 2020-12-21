@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="13" height="13" viewBox="0 0 13 13">
+    <g>
+        <g>
+            <g/>
+            <g opacity="0.3">
+                <path stroke="#000" stroke-width="0.5px" d="M4.5 4.75a.25.25 0 0 1-.177-.074L.073.427A.25.25 0 0 1 .427.073L4.5 4.147 8.573.073a.25.25 0 0 1 .353.353l-4.25 4.25a.248.248 0 0 1-.176.074z" transform="translate(.5 .5) rotate(-90 6 6) translate(1.549 4.451)"/>
+            </g>
+        </g>
+    </g>
+</svg>

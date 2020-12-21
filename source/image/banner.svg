@@ -1,0 +1,62 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="358" height="104" viewBox="0 0 358 104">
+    <defs>
+        <radialGradient id="radial-gradient" cx=".5" cy=".5" r=".875" gradientTransform="matrix(-.577 0 0 .517 10.786 37.46)" gradientUnits="objectBoundingBox">
+            <stop offset=".091" stop-color="#02126a"/>
+            <stop offset=".094" stop-color="#03136a"/>
+            <stop offset=".295" stop-color="#4e5997"/>
+            <stop offset=".483" stop-color="#8d94bc"/>
+            <stop offset=".653" stop-color="#bec2d8"/>
+            <stop offset=".801" stop-color="#e1e3ed"/>
+            <stop offset=".922" stop-color="#f7f7fa"/>
+            <stop offset="1" stop-color="#fff"/>
+        </radialGradient>
+        <linearGradient id="linear-gradient" x1=".345" x2="1.345" y1=".5" y2=".5" gradientUnits="objectBoundingBox">
+            <stop offset=".004" stop-color="#c5d2f4"/>
+            <stop offset=".153" stop-color="#ced9f5"/>
+            <stop offset="1" stop-color="#fff"/>
+        </linearGradient>
+        <filter id="사각형_16754" width="358" height="104" x="0" y="0" filterUnits="userSpaceOnUse">
+            <feOffset dy="3"/>
+            <feGaussianBlur result="blur" stdDeviation="5"/>
+            <feFlood flood-opacity=".161"/>
+            <feComposite in2="blur" operator="in"/>
+            <feComposite in="SourceGraphic"/>
+        </filter>
+        <style>
+            .cls-9{fill:#f29e00}
+        </style>
+    </defs>
+    <g id="배너" transform="translate(15 12)">
+        <g filter="url(#사각형_16754)" transform="translate(-15 -12)">
+            <g id="사각형_16754-2" fill="#fff" stroke="rgba(14,49,128,0.4)" opacity="0.814" transform="translate(15 12)">
+                <rect width="328" height="74" stroke="none" rx="15"/>
+                <rect width="327" height="73" x=".5" y=".5" fill="none" rx="14.5"/>
+            </g>
+        </g>
+        <text id="할인의_혜택" fill="#0e3180" font-family="NotoSansCJKkr-Regular, Noto Sans CJK KR" font-size="13px" letter-spacing="-0.03em" opacity="0.8" transform="translate(67 29)">
+            <tspan x="0" y="0">할인의 혜택</tspan>
+        </text>
+        <text id="최대_50_" fill="#0e3180" font-family="NotoSansCJKkr-Bold, Noto Sans CJK KR" font-size="18px" font-weight="700" letter-spacing="-0.03em" transform="translate(67 53)">
+            <tspan x="0" y="0">최대 50%</tspan>
+        </text>
+        <g id="그룹_39580" transform="translate(268 28)">
+            <g id="그룹_39581">
+                <text id="구독안내" fill="#0e3180" font-family="NotoSansCJKkr-Bold, Noto Sans CJK KR" font-size="12px" font-weight="700" letter-spacing="-0.014em" text-decoration="underline" transform="translate(0 14)">
+                    <tspan x="0" y="0">구독안내</tspan>
+                </text>
+                <path id="선_35" fill="none" stroke="#0e3180" d="M0 0L43 0" transform="translate(.5 15.5)"/>
+            </g>
+        </g>
+        <g id="img_menu_banner_contents" transform="translate(16.391 13.049)">
+            <path id="패스_28407" fill="url(#linear-gradient)" d="M865.05 1171.628h2.083a13.613 13.613 0 0 1 3.351-2.694c7.246-4.261 19.1-4.261 26.35 0a13.63 13.63 0 0 1 3.351 2.694h2.083v5.014c.017 2.822-1.793 5.647-5.433 7.788-7.246 4.261-19.1 4.261-26.35 0-3.641-2.141-5.45-4.966-5.433-7.788z" transform="translate(-865.05 -1143.493)"/>
+            <path id="패스_28408" fill="#fff" d="M896.834 1145.43c-7.246-4.262-19.1-4.262-26.35 0s-7.246 11.235 0 15.5 19.1 4.262 26.35 0 7.246-11.238 0-15.5z" transform="translate(-865.05 -1125.043)"/>
+            <path id="패스_28409" d="M865.066 1163.15V1158.8h1.445a12.718 12.718 0 0 1 3.986-3.5c5.12-3.011 1.682 8.486 0 15.5v5.052c-3.549-2.087-5.355-4.825-5.428-7.576z" class="cls-9" transform="translate(-865.062 -1134.913)"/>
+            <path id="패스_28410" fill="#fdbd56" d="M870.484 1137.328c-7.246 4.262-7.246 11.235 0 15.5l13.175-6.331z" transform="translate(-865.05 -1121.192)"/>
+            <path id="패스_28411" d="M903.967 1179.948v4.251l-13.175 6.331v-4.251z" class="cls-9" transform="translate(-885.357 -1154.647)"/>
+            <path id="패스_28412" d="M899.061 1089.627c-6.96-4.093-18.349-4.093-25.308 0s-6.96 10.791 0 14.884 18.348 4.093 25.308 0 6.959-10.791 0-14.884z" transform="translate(-867.797 -1081.339)" style="mix-blend-mode:multiply;isolation:isolate" fill="url(#radial-gradient)"/>
+            <path id="패스_28413" fill="#354188" d="M890.792 1065.488c7.246-4.261 19.1-4.261 26.35 0l-13.175 9.166z" transform="translate(-885.357 -1062.292)"/>
+            <path id="패스_28414" fill="#1b2a79" d="M966.376 1077.155v8.5l-13.175 9.165v-8.5z" transform="translate(-934.591 -1073.959)"/>
+            <path id="패스_28415" fill="#02126a" d="M903.967 1086.321l-13.175-9.165v8.5l13.175 9.165z" transform="translate(-885.357 -1073.959)"/>
+        </g>
+    </g>
+</svg>
