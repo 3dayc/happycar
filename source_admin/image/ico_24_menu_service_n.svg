@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" id="ico_24_menu_service_n" width="24" height="24" viewBox="0 0 24 24">
+    <defs>
+        <style>
+            .cls-2{fill:none;stroke:#fff;stroke-linecap:round;stroke-linejoin:round;stroke-width:1.3px}
+        </style>
+    </defs>
+    <g id="Layer_1" transform="translate(-131 -315)">
+        <rect id="사각형_19128" width="6" height="6" class="cls-2" rx=".962" transform="translate(140 319)"/>
+        <path id="선_1443" d="M0 0L0 7" class="cls-2" transform="translate(143 325)"/>
+        <path id="패스_33930" d="M150 331.5v-3h-14v3" class="cls-2"/>
+        <circle id="타원_1190" cx="2" cy="2" r="2" class="cls-2" transform="translate(134 332)"/>
+        <circle id="타원_1191" cx="2" cy="2" r="2" class="cls-2" transform="translate(141 332)"/>
+        <circle id="타원_1192" cx="2" cy="2" r="2" class="cls-2" transform="translate(148 332)"/>
+    </g>
+</svg>

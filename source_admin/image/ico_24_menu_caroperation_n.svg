@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" id="ico_24_menu_caroperation_n" width="24" height="24" viewBox="0 0 24 24">
+    <defs>
+        <style>
+            .cls-2{fill:none;stroke:#fff;stroke-linecap:round;stroke-linejoin:round;stroke-width:1.3px}
+        </style>
+    </defs>
+    <g id="그룹_41193" transform="translate(-221 -315)">
+        <g id="Layer_1">
+            <path id="선_1444" d="M0 0L0 5.926" class="cls-2" transform="translate(231.29 319.074)"/>
+            <circle id="타원_1195" cx="2.5" cy="2.5" r="2.5" class="cls-2" transform="translate(224.5 330)"/>
+            <circle id="타원_1196" cx="2.5" cy="2.5" r="2.5" class="cls-2" transform="translate(236.5 330)"/>
+            <path id="패스_33935" d="M241.5 332.5h2V329a3.5 3.5 0 0 0-3.5-3.5h-16a1.5 1.5 0 0 0-1.5 1.5v5.5h1.746" class="cls-2"/>
+            <path id="선_1445" d="M0 0L3 0" class="cls-2" transform="translate(231.42 332.5)"/>
+            <path id="패스_33936" d="M238.5 325l-2.531-6H229.5a5 5 0 0 0-5 5v1" class="cls-2"/>
+        </g>
+    </g>
+</svg>

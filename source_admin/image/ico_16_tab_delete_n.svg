@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" id="ico_16_tab_delete_n" width="16" height="16" viewBox="0 0 16 16">
+    <defs>
+        <style>
+            .cls-2{fill:none;stroke:#333;stroke-linecap:round;stroke-width:1.4px}
+        </style>
+    </defs>
+    <g id="icon_delete" transform="translate(4 4)">
+        <path id="선_88" d="M0 0L8 8" class="cls-2"/>
+        <path id="선_89" d="M0 0L8 8" class="cls-2" transform="rotate(90 4 4)"/>
+    </g>
+</svg>

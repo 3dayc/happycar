@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" id="ico_24_menu_dashboard_n" width="24" height="24" viewBox="0 0 24 24">
+    <defs>
+        <style>
+            .cls-2{fill:none;stroke:#fff;stroke-linecap:round;stroke-linejoin:round;stroke-width:1.3px}
+        </style>
+    </defs>
+    <g id="Layer_1" transform="translate(-101 -315)">
+        <rect id="사각형_19115" width="7.5" height="18.5" class="cls-2" rx="1.36" transform="translate(104 317.5)"/>
+        <rect id="사각형_19116" width="7.5" height="10" class="cls-2" rx="1" transform="translate(114.5 317.5)"/>
+        <rect id="사각형_19117" width="7.5" height="5.5" class="cls-2" rx="1" transform="translate(114.5 330.5)"/>
+    </g>
+</svg>

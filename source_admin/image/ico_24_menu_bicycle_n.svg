@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" id="ico_24_menu_bicycle_n" width="24" height="24" viewBox="0 0 24 24">
+    <defs>
+        <style>
+            .cls-2,.cls-4{fill:none;stroke:#fff;stroke-width:1.3px;stroke-linecap:round}.cls-2{stroke-miterlimit:10}.cls-4{stroke-linejoin:round}
+        </style>
+    </defs>
+    <g id="Layer_1" transform="translate(-281 -315)">
+        <path id="선_1423" d="M0 0L2.905 0" class="cls-2" transform="translate(286.347 323.041)"/>
+        <path id="선_1424" fill="none" stroke="#fff" stroke-miterlimit="10" stroke-width="1.3px" d="M1 2.421L0 0" transform="translate(287.8 323.041)"/>
+        <path id="패스_33919" d="M299.211 330.969l-4.022-12-2-1" class="cls-2"/>
+        <path id="패스_33921" d="M297.251 325.288h-6.746a5.292 5.292 0 0 0-4 5.5" class="cls-2"/>
+        <path id="패스_33937" d="M284.713 327.672a3.874 3.874 0 1 0 3.043-.236" class="cls-4"/>
+        <path id="패스_33938" d="M284.713 327.672a3.874 3.874 0 1 0 3.043-.236" class="cls-4"/>
+        <path id="패스_33939" d="M295.617 329.3a3.873 3.873 0 1 0 2.383-1.91" class="cls-4"/>
+    </g>
+</svg>

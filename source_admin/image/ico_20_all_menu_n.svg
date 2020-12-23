@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20">
+    <defs>
+        <style>
+            .cls-2{fill:none;stroke:#fc3;stroke-width:2px}
+        </style>
+    </defs>
+    <g id="ico_20_all_menu_n" transform="translate(-201 -20)">
+        <g id="그룹_39240" transform="translate(0 .5)">
+            <path id="선_108" d="M0 0L14 0" class="cls-2" transform="translate(204 24.5)"/>
+            <path id="선_109" d="M0 0L14 0" class="cls-2" transform="translate(204 29.5)"/>
+            <path id="선_110" d="M0 0L14 0" class="cls-2" transform="translate(204 34.5)"/>
+        </g>
+    </g>
+</svg>

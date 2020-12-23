@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" id="ico_24_menu_kickboard_n" width="24" height="24" viewBox="0 0 24 24">
+    <defs>
+        <style>
+            .cls-2{fill:none;stroke:#fff;stroke-linecap:round;stroke-linejoin:round;stroke-width:1.3px}
+        </style>
+    </defs>
+    <g id="그룹_41196">
+        <g id="그룹_41195">
+            <path id="패스_33815" d="M256.893 334.786a2.566 2.566 0 1 1 1.035-2.059" class="cls-2" transform="translate(-251 -315)"/>
+            <path id="패스_33816" d="M255.364 327.856a4.871 4.871 0 0 1 4.872 4.87" class="cls-2" transform="translate(-251 -315)"/>
+            <path id="패스_33817" d="M270.236 330.163a2.563 2.563 0 1 1-2.072 1.053" class="cls-2" transform="translate(-251 -315)"/>
+            <path id="패스_33818" d="M255.364 332.727h9.236l4.359-5.9" class="cls-2" transform="translate(-251 -315)"/>
+            <path id="패스_33920" d="M270.236 332.727l-3-14-3-1" class="cls-2" transform="translate(-251 -315)"/>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" id="ico_24_logout_n" width="24" height="24" viewBox="0 0 24 24">
+    <defs>
+        <style>
+            .cls-3{fill:none;stroke:#fc3;stroke-linecap:round;stroke-miterlimit:10;stroke-width:1.4px;stroke-linejoin:round}
+        </style>
+    </defs>
+    <g id="그룹_23904" transform="translate(5.067 3.497)">
+        <path id="선_107" fill="none" stroke="#fc3" stroke-linecap="round" stroke-miterlimit="10" stroke-width="1.4px" d="M0 0L8.757 0" transform="translate(0 8.393)"/>
+        <path id="패스_27801" d="M449.2 253.9l3.527 3.406-3.527 3.527" class="cls-3" transform="translate(-443.97 -248.913)"/>
+        <path id="패스_27802" d="M446.5 263.841v2.259a.575.575 0 0 0 .608.608h10.7a.575.575 0 0 0 .608-.608v-15.69a.575.575 0 0 0-.608-.608h-10.7a.575.575 0 0 0-.608.608v2.276" class="cls-3" transform="translate(-444.554 -249.8)"/>
+    </g>
+</svg>

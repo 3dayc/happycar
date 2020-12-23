@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" id="ico_24_quickmenu_charge_n" width="24" height="24" viewBox="0 0 24 24">
+    <defs>
+        <style>
+            .cls-4{fill:#fc3}
+        </style>
+    </defs>
+    <g id="Layer_1" transform="translate(-191 -405)">
+        <rect id="사각형_19065" width="17" height="19" fill="none" stroke="#fc3" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.3px" rx="1" transform="translate(194.3 407.376)"/>
+        <rect id="사각형_18966" width="10.7" height="3.7" fill="none" stroke="#fc3" stroke-miterlimit="10" stroke-width="1.3px" rx=".038" transform="translate(197.45 410.526)"/>
+        <rect id="사각형_19067" width="2.5" height="2.5" class="cls-4" rx=".5" transform="translate(201.55 417.125)"/>
+        <rect id="사각형_19068" width="2.5" height="2.5" class="cls-4" rx=".5" transform="translate(205.8 417.125)"/>
+        <rect id="사각형_19069" width="2.5" height="2.5" class="cls-4" rx=".5" transform="translate(201.55 421.375)"/>
+        <rect id="사각형_19070" width="2.5" height="2.5" class="cls-4" rx=".5" transform="translate(197.3 417.125)"/>
+        <rect id="사각형_19071" width="2.5" height="2.5" class="cls-4" rx=".5" transform="translate(197.3 421.375)"/>
+        <rect id="사각형_19072" width="2.5" height="2.5" class="cls-4" rx=".5" transform="translate(205.8 421.375)"/>
+    </g>
+</svg>

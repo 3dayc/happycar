@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+    <g>
+        <path d="M0 0H24V24H0z" style="isolation:isolate" fill="none"/>
+    </g>
+    <g>
+        <path fill="#cacaca" fill-rule="evenodd" d="M529 145.773l6.18 3.727-1.635-7.029 5.455-4.727-7.191-.617L529 130.5l-2.809 6.627-7.191.617 5.455 4.727-1.635 7.029z" transform="translate(1.966 2.5) translate(-519 -130.5)"/>
+    </g>
+</svg>

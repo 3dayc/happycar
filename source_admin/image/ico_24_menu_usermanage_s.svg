@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" id="ico_24_menu_usermanage_s" width="24" height="24" viewBox="0 0 24 24">
+    <defs>
+        <style>
+            .cls-2{fill:none;stroke:#fc3;stroke-linecap:round;stroke-linejoin:round;stroke-width:1.3px}
+        </style>
+    </defs>
+    <g id="그룹_41191">
+        <g id="layer1" transform="translate(-161 -315)">
+            <g id="g11426">
+                <g id="g11428">
+                    <circle id="ellipse11430" cx="3.228" cy="3.228" r="3.228" class="cls-2" transform="translate(166.101 319)"/>
+                    <path id="path11432" d="M162.744 334.186a6.584 6.584 0 0 1 13.168 0" class="cls-2"/>
+                </g>
+                <g id="g11434">
+                    <circle id="ellipse11436" cx="2.571" cy="2.571" r="2.571" class="cls-2" transform="translate(175.441 321.067)"/>
+                    <path id="path11438" d="M175.683 328.612a5.187 5.187 0 0 1 2.329-.547 5.261 5.261 0 0 1 5.244 5.277" class="cls-2"/>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

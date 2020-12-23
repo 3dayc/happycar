@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" id="ico_24_menu_calculate_n" width="24" height="24" viewBox="0 0 24 24">
+    <defs>
+        <style>
+            .cls-2{fill:none;stroke:#fff;stroke-linecap:round;stroke-linejoin:round;stroke-width:1.3px}
+        </style>
+    </defs>
+    <g id="Layer_1" transform="translate(-431 -315)">
+        <path id="패스_33901" d="M440.35 331.5H435a1.51 1.51 0 0 1-1.5-1.5v-10a1.51 1.51 0 0 1 1.5-1.5h13a1.51 1.51 0 0 1 1.5 1.5v2.833" class="cls-2"/>
+        <path id="패스_33902" fill="none" stroke="#fff" d="M442.5 328v6c0 1.1 2.239 2 5 2s5-.9 5-2v-6c0-1.1-2.239-2-5-2s-5 .9-5 2z"/>
+        <path id="선_1433" d="M0 0L0 3" class="cls-2" transform="translate(442.5 331)"/>
+        <path id="선_1435" d="M0 0L0 3" class="cls-2" transform="translate(442.5 328)"/>
+        <ellipse id="타원_1181" cx="5" cy="2" class="cls-2" rx="5" ry="2" transform="translate(442.5 326)"/>
+        <path id="패스_33903" d="M452.5 331c0 1.1-2.239 2-5 2s-5-.9-5-2" class="cls-2"/>
+        <path id="선_1436" d="M0 0L0 3" class="cls-2" transform="translate(452.5 328)"/>
+        <path id="패스_33904" d="M452.5 334c0 1.1-2.239 2-5 2s-5-.9-5-2" class="cls-2"/>
+        <path id="선_1437" d="M0 0L0 3" class="cls-2" transform="translate(452.5 331)"/>
+        <path id="사각형_18964" fill="#fff" d="M0 0H17.3V2.5H0z" transform="translate(432.85 321.5)"/>
+    </g>
+</svg>
