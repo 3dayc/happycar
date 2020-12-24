@@ -53,7 +53,7 @@ button.search::before{content: "|"; position:absolute; right:28px; bottom:2px; c
 .btn-area.btn-login > .btn{width:50%;}
 .btn-area.btn-login .btn + .btn{margin-top:0}
 .btn-login{display:inline-block; width:100%; height:56px; text-align:center; color:#1a1a1a; line-height:1; font-size:16px; border-radius:15px; line-height:56px; font-weight:500; white-space:nowrap; margin-bottom:20px;}
-.fix-btn-area{padding:24px 16px; position:fixed; width:100%; left:0; bottom:0; z-index:2;}
+.fix-btn-area{padding:24px 16px; position:fixed; width:100%; bottom:0; z-index:2;}
 .fix-btn-area.white{background-color:#fcfcfc; box-shadow:0 4px 6px rgba(00,00,00,0.2), 0 4px 8px rgba(00,00,00,0.2)}
 .fix-btn-area .btn{display:inline-block; width:100%; height:56px; text-align:center; color:#1a1a1a; font-size:16px; line-height:1; border-radius:15px; line-height:56px; font-weight:600}
 .fix-btn-area-wide{padding:0; position:fixed; width:100%; left:0; bottom:0;}
