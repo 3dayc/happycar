@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" id="ico_16_tableheader_sort_n" width="16" height="16" viewBox="0 0 16 16">
+    <defs>
+        <style>
+            .cls-2{fill:#333}
+        </style>
+    </defs>
+    <g id="그룹_39241">
+        <path id="다각형_5" d="M2.743.429a.3.3 0 0 1 .514 0l2.47 4.117A.3.3 0 0 1 5.47 5H.53a.3.3 0 0 1-.257-.454z" class="cls-2" transform="translate(5 2)"/>
+        <path id="다각형_6" d="M2.743.429a.3.3 0 0 1 .514 0l2.47 4.117A.3.3 0 0 1 5.47 5H.53a.3.3 0 0 1-.257-.454z" class="cls-2" transform="rotate(180 5.5 7)"/>
+    </g>
+</svg>

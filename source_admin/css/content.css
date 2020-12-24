@@ -12,7 +12,7 @@
 .container .content-wrap .path > p.active{color:#333333; font-weight:500;}
 .container .content-wrap .path > span{display:inline-block; width:16px; height:16px; background:url(../image/ico_16_arrow_right_n.svg) no-repeat center center; text-indent:-9999px; margin-top:1px;}
 .container .content-wrap > h2{margin:6px 0 0 279px; width:94px; font-size:24px; color:#333333; font-weight:600; background:url(../image/ico_24_title_n.svg) no-repeat right center;}
-.container .content-wrap .article_top{position:absolute; margin:18px 0 32px 279px; width:1590px; height:203px; background-color:#f6f7fb;}
+.container .content-wrap .article_top{position:absolute; margin:18px 0 0 279px; width:1590px; height:203px; background-color:#f6f7fb;}
 .container .content-wrap .article_top .article_box{padding:20px 24px; display:flex;}
 .container .content-wrap .article_top-button > h5{font-size:13px; color:#898989; font-weight:300; margin:0 0 4px 0;}
 .container .content-wrap .article_top-button.calen > .combo-button{width:200px; margin-right:0;}
@@ -22,7 +22,8 @@
 .container .content-wrap .article_top-button.search > h5{text-indent:-9999px;}
 .container .content-wrap .article_top-button.search > .combo-button{width:166px; padding:0; text-align:center; background-color:#333333; border:1px solid #333333; color:#ffcc33; font-size:14px; font-weight:400;}
 .container .content-wrap .article_top-button .date{width:34px; height:34px; text-indent:-9999px; margin-right:12px; background:url(../image/ico_20_calendar_n.svg) no-repeat center center; background-color:#fff; border:1px solid #969696;}
-.container .content-wrap .article_bottom{position:absolute; top:530px; width:1590px; height:602px; background-color:#f6f7fb; margin:0 0 0 279px; padding:28px 10px 0 24px;}
+.container .content-wrap .article_bottom{position:absolute; top:490px; width:1590px; height:602px; background-color:#f6f7fb; margin:0 0 0 279px; padding:28px 24px 0 24px;}
 .container .content-wrap .article_bottom .tit{display:flex; justify-content:space-between;}
 .container .content-wrap .article_bottom .tit-left > span{display:inline-block; width:34px; height:34px; border:1px solid #333333; text-indent:-9999px; background:url(../image/ico_24_filter_n.svg) no-repeat center center;}
 .container .content-wrap .article_bottom .tit-left > h6{position:relative; top:6px; left:7px; display:inline-block; color:#000000; font-size:16px; font-weight:bold; letter-spacing:-1px;}
+.container .content-wrap .article_bottom .tit-right .combo-button.last{margin-right:0;}

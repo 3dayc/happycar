@@ -80,6 +80,7 @@ button.search::before{content: "|"; position:absolute; right:28px; bottom:2px; c
 .btn.navy{background:#242839; color:#ffd41d;}
 .btn.white{background:#fff; color:#1a1a1a;}
 .btn.shadow,.btn-login.shadow{box-shadow:0 4px 6px rgba(00,00,00,0.15), 0 4px 8px rgba(00,00,00,0.1)}
+.shadow2{box-shadow:0px 15px 32px 0px rgba(0,0,0,0.75);}
 
 /* input */
 input {height:48px; background-color:#f0f0f0; border-radius:6px !important; padding: 12px 12px 12px 16px; font-size:16px; width:100%;}
