@@ -1,0 +1,70 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="360" height="241" viewBox="0 0 360 241">
+    <defs>
+        <filter id="사각형_16754" width="325" height="191" x="17.474" y="44.415" filterUnits="userSpaceOnUse">
+            <feOffset dy="5"/>
+            <feGaussianBlur result="blur" stdDeviation="15"/>
+            <feFlood flood-color="#1a2e5c"/>
+            <feComposite in2="blur" operator="in"/>
+            <feComposite in="SourceGraphic"/>
+        </filter>
+        <filter id="사각형_16016" width="325" height="222" x="18" y="14" filterUnits="userSpaceOnUse">
+            <feOffset dy="5"/>
+            <feGaussianBlur result="blur-2" stdDeviation="10"/>
+            <feFlood flood-opacity=".161"/>
+            <feComposite in2="blur-2" operator="in"/>
+            <feComposite in="SourceGraphic"/>
+        </filter>
+        <filter id="사각형_17233" width="295" height="192" x="33" y="17" filterUnits="userSpaceOnUse">
+            <feOffset dy="-7"/>
+            <feGaussianBlur result="blur-3" stdDeviation="5"/>
+            <feFlood flood-color="#fff" flood-opacity=".969"/>
+            <feComposite in2="blur-3" operator="in"/>
+            <feComposite in="SourceGraphic"/>
+        </filter>
+        <linearGradient id="linear-gradient" x1=".2" x2=".5" y2="1" gradientUnits="objectBoundingBox">
+            <stop offset="0" stop-color="#f2f1ef"/>
+            <stop offset="1" stop-color="#faf8f5"/>
+        </linearGradient>
+        <style>
+            .cls-7{fill:#ffd41d}.cls-8{fill:#d09e17}
+        </style>
+    </defs>
+    <g id="img_creditcard_new" transform="translate(-31 -162.113)">
+        <g id="img_creditcard_new-2" transform="translate(79 201.113)">
+            <g filter="url(#사각형_16754)" transform="translate(-48 -39)">
+                <rect id="사각형_16754-2" width="235" height="101" fill="#1a2e5c" opacity="0.459" rx="9" transform="translate(62.47 84.41)"/>
+            </g>
+            <g id="그룹_39592">
+                <g filter="url(#사각형_16016)" transform="translate(-48 -39)">
+                    <rect id="사각형_16016-2" width="265" height="162" fill="#fff" rx="9" transform="translate(48 39)"/>
+                </g>
+                <g filter="url(#사각형_17233)" transform="translate(-48 -39)">
+                    <rect id="사각형_17233-2" width="265" height="162" fill="url(#linear-gradient)" rx="9" transform="translate(48 39)"/>
+                </g>
+            </g>
+            <text id="_1234_5678_1234_5678" fill="#4a4d5a" font-family="NotoSansCJKkr-Regular, Noto Sans CJK KR" font-size="20px" letter-spacing="0.05em" transform="translate(16 117)">
+                <tspan x="0" y="0">1234 5678 1234 5678</tspan>
+            </text>
+            <text id="_12_31" fill="#4a4d5a" font-family="NotoSansCJKkr-Regular, Noto Sans CJK KR" font-size="12px" transform="translate(204 136)">
+                <tspan x="0" y="0">12 / 31</tspan>
+            </text>
+            <g id="그룹_40755" transform="translate(-48 -181)">
+                <rect id="사각형_18039" width="28" height="28" class="cls-7" rx="5" transform="translate(64 243)"/>
+                <path id="사각형_18040" d="M0 0H4V28H0z" class="cls-8" transform="translate(71 243)"/>
+                <path id="사각형_18041" d="M0 0H4V28H0z" class="cls-8" transform="translate(81 243)"/>
+                <path id="사각형_18042" d="M0 0H9V4H0z" class="cls-8" transform="translate(83 250)"/>
+                <path id="사각형_18045" d="M0 0H9V4H0z" class="cls-8" transform="translate(83 260)"/>
+                <path id="사각형_18043" d="M0 0H9V4H0z" class="cls-8" transform="translate(64 250)"/>
+                <path id="사각형_18044" d="M0 0H9V4H0z" class="cls-8" transform="translate(64 260)"/>
+            </g>
+        </g>
+        <g id="그룹_39582" transform="translate(64 184.114)">
+            <path id="패스_38863" d="M-233.039 335.8h-18.441v18.647a2.5 2.5 0 0 0 2.5 2.5 2.5 2.5 0 0 0 2.5-2.5V340.8h13.441a2.5 2.5 0 0 0 2.5-2.5 2.5 2.5 0 0 0-2.5-2.5z" class="cls-7" transform="translate(249.48 -337.805)"/>
+            <path id="패스_38864" d="M-248.98 335.8h18.441v18.647a2.5 2.5 0 0 1-2.5 2.5 2.5 2.5 0 0 1-2.5-2.5V340.8h-13.441a2.5 2.5 0 0 1-2.5-2.5 2.5 2.5 0 0 1 2.5-2.5z" class="cls-7" transform="translate(527.98 -337.805)"/>
+        </g>
+        <g id="그룹_44539" transform="translate(62 365.113)">
+            <path id="패스_38863-2" d="M-233.039 356.952h-18.441V338.3a2.5 2.5 0 0 1 2.5-2.5 2.5 2.5 0 0 1 2.5 2.5v13.647h13.441a2.5 2.5 0 0 1 2.5 2.5 2.5 2.5 0 0 1-2.5 2.505z" class="cls-7" transform="translate(251.48 -335.805)"/>
+            <path id="패스_38864-2" d="M-248.98 356.952h18.441V338.3a2.5 2.5 0 0 0-2.5-2.5 2.5 2.5 0 0 0-2.5 2.5v13.647h-13.441a2.5 2.5 0 0 0-2.5 2.5 2.5 2.5 0 0 0 2.5 2.505z" class="cls-7" transform="translate(529.98 -335.805)"/>
+        </g>
+    </g>
+</svg>

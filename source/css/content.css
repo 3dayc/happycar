@@ -316,7 +316,7 @@
 .cont-wrap.search .term-list .term-item > ul > li > .full-line{opacity:50%;}
 
 /* 가입환영 */
-.sectionSkip{font-size:13px; color:#4a4d5a; float:right; margin:18px 16px 0 0; text-decoration-line:underline; font-weight:bold}
+.sectionSkip{font-size:13px; color:#4a4d5a; float:right; margin:18px 16px 0 0; font-weight:bold; border-bottom:1px solid #242839; line-height:15px;}
 .cont-wrap.seleb > div{width:100%; height:328px; background:url(../image/img_celebration_join.svg) no-repeat; position:absolute; left:0;}
 .cont-wrap.seleb > p:nth-of-type(1){padding-top:340px; color:#1a1a1a; font-size:30px; font-weight:bold;}
 .cont-wrap.seleb > p:nth-of-type(2){color:#1a1a1a; font-size:14px; margin-top:8px}
@@ -458,9 +458,9 @@
 .cont-wrap > .mem_text:nth-of-type(2){color:#626572; font-size:13px; margin-top:12px; margin-bottom:24px;}
 .cont-wrap > .last_txt{font-size:13px; color:#a16912; margin-top:130px; text-align:center;}
 /* 2BUTTON */
-.fix-btn-area.mem04_left{width:53%;}
+.fix-btn-area.mem04_left{width:50%; padding-right:4px;}
 .fix-btn-area.mem04_left > .gray{background-color:#8b90aa; font-size:16px; font-weight:500;}
-.fix-btn-area.mem04_right{width:53%; right:0;}
+.fix-btn-area.mem04_right{width:50%; right:0; padding-left:4px;}
 
 /* MEM_05 */
 .cont-wrap .village2{width:190px; height:140px; background:url(../image/img_village_check.svg); margin:0 auto; margin-top:-15px;}
@@ -469,6 +469,29 @@
 .cont-wrap .mem_text:nth-of-type(2){color:#626572; font-size:13px; margin-top:12px; margin-bottom:24px;}
 .cont-wrap > .last_txt{font-size:13px; color:#a16912; margin-top:130px; text-align:center;}
 /* 2BUTTON */
-.fix-btn-area.mem05_left{width:33%;}
+.fix-btn-area.mem05_left{width:30%; padding-right:4px;}
 .fix-btn-area.mem05_left > .gray{background-color:#8b90aa; font-size:16px; font-weight:500;}
-.fix-btn-area.mem05_right{width:73%; right:0;}
+.fix-btn-area.mem05_right{width:70%; right:0; padding-left:4px;}
+
+/* LOG_POP_01 */
+.cont-wrap.log_pop_01{padding-left:24px;}
+.cont-wrap.log_pop_01 > span{display:block; position:relative; top:66px; opacity:0.41; width:86px; height:18px; background-color:#ffd41d;}
+.cont-wrap.log_pop_01 .img_slip{width:260px; height:200px; background:url(../image/img_slip_user.svg);}
+.cont-wrap.log_pop_01 p:nth-of-type(1){position:absolute; color:#1a1a1a; font-size:24px; letter-spacing:-1.2px; line-height:42px; font-weight:bold; margin-top:30px; margin-bottom:20px;}
+.cont-wrap.log_pop_01 p:nth-of-type(2){color:#231f20; font-size:16px; letter-spacing:-0.32px; line-height:28px; font-weight:bold; margin-top: 91px; margin-bottom:9px;}
+.cont-wrap.log_pop_01 p:nth-of-type(3){color:#1a1a1a; font-size:14px; letter-spacing:-0.28px; line-height:24px;}
+
+/* CAD_01 */
+.sectionSkip.relat{position:relative; bottom:55px; color:#4a4d5a; font-size:13px; line-height:15px;}
+.fix-btn-area.ver_two a:nth-of-type(2){margin-top:16px; background-color:#242839; color:#ffd41d;}
+.cont-wrap.cad_01 p:nth-of-type(1){font-size:20px; letter-spacing:-1px; line-height:30px; color:#a16912; text-align:center; font-weight:500; margin-top:18px;}
+.cont-wrap.cad_01 p:nth-of-type(2),
+.cont-wrap.cad_01 p:nth-of-type(3){font-size:14px; line-height:16px; letter-spacing:-0.34px; color:#a16912; text-align:center;}
+.cont-wrap.cad_01 p:nth-of-type(3){position:relative; bottom:6px;}
+.cont-wrap.cad_01 p:nth-of-type(2) > span,
+.cont-wrap.cad_01 p:nth-of-type(3) > span{display:inline-block; width:18px; height:18px; background:url(../image/ico_check_discription_brown.svg); position:relative; top:4px; right:2px;}
+.cont-wrap.cad_01 .bg-line:nth-of-type(1){background-color:#ffd41d; display:block; position:relative; opacity:0.2; width:217px; height:14px; bottom:15px; margin:0 auto;}
+.cont-wrap.cad_01 .bg-line:nth-of-type(2){background-color:#ffd41d; display:block; position:relative; opacity:0.2; width:179px; height:14px; bottom:20px; margin:0 auto;}
+.cont-wrap.cad_01 p:nth-of-type(4){font-size:14px; letter-spacing:-0.34px; line-height:20px; color:#7b7d81; text-align:center; margin-top:67px;}
+.cont-wrap.cad_01 a{display:block; line-height:15px; color:#242839; padding-top:10px; border-bottom:1px solid #242839; font-weight:bold; margin:0 auto; width:80px;}
+.cont-wrap.cad_01 > div{width:360px; height:241px; background:url(../image/img_creditcard_new.svg); margin:0 auto; text-indent:-9999px; margin-top:9px;}
