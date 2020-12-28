@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" id="ico_16_arrow_right_s" width="16" height="16" viewBox="0 0 16 16">
+    <defs>
+        <style>
+            .cls-1{fill:red;opacity:0}
+        </style>
+    </defs>
+    <path id="사각형_1508" d="M0 0H16V16H0z" class="cls-1"/>
+    <path id="사각형_1509" d="M0 0H8.8V8.8H0z" class="cls-1" transform="translate(3.6 3.6)"/>
+    <path id="패스_233" fill="none" stroke="#000" stroke-linecap="round" stroke-width="1.4px" d="M2199.4 459.606l4 4-4 4" transform="translate(-2193.396 -455.606)"/>
+</svg>

@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" id="ico_24_popup_quit_n" width="24" height="24" viewBox="0 0 24 24">
+    <defs>
+        <style>
+            .cls-1{fill:none;stroke:#333;stroke-linecap:round;stroke-width:2px}
+        </style>
+    </defs>
+    <g id="ico_X" transform="translate(5 5)">
+        <path id="패스_299" d="M566.328 143.374l14 14" class="cls-1" transform="translate(-566.328 -143.374)"/>
+        <path id="패스_300" d="M580.328 143.374l-14 14" class="cls-1" transform="translate(-566.328 -143.374)"/>
+    </g>
+</svg>

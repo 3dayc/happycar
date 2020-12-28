@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" id="ico_24_popup_expand_n" width="24" height="24" viewBox="0 0 24 24">
+    <defs>
+        <style>
+            .cls-2{fill:#333;stroke:#333;stroke-width:.2px}
+        </style>
+    </defs>
+    <g id="iconfinder_expand_3258308" transform="translate(2 2.004)">
+        <path id="패스_33732" d="M17.361 19H2.636A1.636 1.636 0 0 1 1 17.361V2.636A1.636 1.636 0 0 1 2.636 1H9.18a.818.818 0 0 1 0 1.636H2.636v14.725h14.725v-6.545a.818.818 0 0 1 1.636 0v6.544A1.636 1.636 0 0 1 17.361 19z" class="cls-2" transform="translate(0 -.001)"/>
+        <path id="패스_33733" d="M20.726 7.544a.818.818 0 0 1-.818-.818v-4.09h-4.09a.818.818 0 0 1 0-1.636h4.908a.818.818 0 0 1 .818.818v4.908a.818.818 0 0 1-.818.818z" class="cls-2" transform="translate(-2.548 -.001)"/>
+        <path id="패스_33734" d="M12.817 10a.818.818 0 0 1-.581-1.4L19.6 1.236A.821.821 0 1 1 20.76 2.4L13.4 9.76a.818.818 0 0 1-.583.24z" class="cls-2" transform="translate(-2.001)"/>
+    </g>
+</svg>

@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" id="ico_20_download_n" width="20" height="20" viewBox="0 0 20 20">
+    <defs>
+        <style>
+            .cls-2{fill:none;stroke:#333;stroke-linecap:round;stroke-linejoin:round;stroke-width:1.4px}
+        </style>
+    </defs>
+    <g id="그룹_44095" transform="translate(-698.569 -375.681)">
+        <path id="사각형_18744" fill="rgba(240,240,240,0)" d="M0 0H20V20H0z" transform="translate(698.569 375.681)"/>
+        <path id="패스_33824" d="M715.444 389.681v3.125h-13.75v-3.125" class="cls-2"/>
+        <path id="패스_33825" d="M704.194 385.056l4.375 4.375 4.375-4.375" class="cls-2"/>
+        <path id="선_1450" d="M0 10L0 0" class="cls-2" transform="translate(708.569 378.181)"/>
+    </g>
+</svg>
