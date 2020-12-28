@@ -493,5 +493,5 @@
 .cont-wrap.cad_01 .bg-line:nth-of-type(1){background-color:#ffd41d; display:block; position:relative; opacity:0.2; width:217px; height:14px; bottom:15px; margin:0 auto;}
 .cont-wrap.cad_01 .bg-line:nth-of-type(2){background-color:#ffd41d; display:block; position:relative; opacity:0.2; width:179px; height:14px; bottom:20px; margin:0 auto;}
 .cont-wrap.cad_01 p:nth-of-type(4){font-size:14px; letter-spacing:-0.34px; line-height:20px; color:#7b7d81; text-align:center; margin-top:67px;}
-.cont-wrap.cad_01 a{display:block; line-height:15px; color:#242839; padding-top:10px; border-bottom:1px solid #242839; font-weight:bold; margin:0 auto; width:80px;}
+.cont-wrap.cad_01 a{display:block; line-height:15px; color:#242839; padding-top:10px; border-bottom:1px solid #242839; font-weight:bold; margin:0 auto; width:80px; margin-bottom:110px;}
 .cont-wrap.cad_01 > div{width:360px; height:241px; background:url(../image/img_creditcard_new.svg); margin:0 auto; text-indent:-9999px; margin-top:9px;}
