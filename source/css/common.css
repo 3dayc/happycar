@@ -54,7 +54,7 @@ button.search::before{content: "|"; position:absolute; right:28px; bottom:2px; c
 .btn-area.btn-login .btn + .btn{margin-top:0}
 .btn-login{display:inline-block; width:100%; height:56px; text-align:center; color:#1a1a1a; line-height:1; font-size:16px; border-radius:15px; line-height:56px; font-weight:500; white-space:nowrap; margin-bottom:20px;}
 .fix-btn-area{padding:24px 16px; position:fixed; width:100%; bottom:0; z-index:2;}
-.fix-btn-area.white{background-color:#fcfcfc; box-shadow:0 4px 6px rgba(00,00,00,0.2), 0 4px 8px rgba(00,00,00,0.2)}
+.fix-btn-area.white{background-color:#fcfcfc; box-shadow:0 4px 6px rgba(00,00,00,0.2)}
 .fix-btn-area .btn{display:inline-block; width:100%; height:56px; text-align:center; color:#1a1a1a; font-size:16px; line-height:1; border-radius:15px; line-height:56px; font-weight:600}
 .fix-btn-area-wide{padding:0; position:fixed; width:100%; left:0; bottom:0;}
 .fix-btn-area-wide .btn{display:inline-block; width:100%; height:56px; text-align:center; color:#1a1a1a; font-size:16px; line-height:1; line-height:56px; font-weight:600; border-radius:0;}
@@ -81,6 +81,9 @@ button.search::before{content: "|"; position:absolute; right:28px; bottom:2px; c
 .btn.white{background:#fff; color:#1a1a1a;}
 .btn.shadow,.btn-login.shadow{box-shadow:0 4px 6px rgba(00,00,00,0.15), 0 4px 8px rgba(00,00,00,0.1)}
 .shadow2{box-shadow:0px 15px 32px 0px rgba(0,0,0,0.75);}
+.combo-btn{width:100%; height:48px; border-radius:6px; background-color:#f0f0f0; font-size:16px; color:#ccccd0; text-align:left; letter-spacing:-0.26px; padding:0 16px}
+.combo-btn.active{color:#1a1a1a;}
+.combo-btn > span{display:inline-block; width:16px; height:16px; background:url(../image/ico_drop_n.svg); position:relative; top:4px; float:right;}
 
 /* input */
 input {height:48px; background-color:#f0f0f0; border-radius:6px !important; padding: 12px 12px 12px 16px; font-size:16px; width:100%;}
