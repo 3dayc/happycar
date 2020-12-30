@@ -541,6 +541,21 @@
 /* HOM_01_REC_01 */
 .bg-opa{position:absolute; left:0; top:0; width:100%; height:100%; background-color:#231f20; opacity: 0.8;}
 .rec_popup{position:absolute; left:0; top:0; width:100%; height:658px; background-color:#fff; z-index:999; border-radius:0 0 20px 20px;}
+.rec_popup .section{padding:40px 24px 0 24px; background:url(../image/img_search_find_car.svg) no-repeat bottom right; height:100%; background-position-x:262px; background-position-y:370px;}
+.rec_popup .section > span{position:absolute; top:62px; display:block; background-color:#ffd41d; width:76px; height:24px; opacity:0.4; border-radius:4px;}
+.rec_popup .section > p:nth-of-type(1){position:absolute; z-index:999; font-size:34px; line-height:50px; font-weight:bold}
+.rec_popup .section > p:nth-of-type(2){font-size:18px; color:#4a4d5a; line-height:27px; letter-spacing:-0.72px; font-weight:500}
+.rec_popup .section .sub_txt{position:relative; bottom:39px; left:200px; color:#4a4d5a; font-size:18px; line-height:27px; letter-spacing:-0.72px;}
+.rec_popup .section .sub_txt2{position:relative; bottom:39px; left:108px; color:#4a4d5a; font-size:18px; line-height:27px; letter-spacing:-0.72px;}
+.rec_popup .section .sub_txt3{position:relative; bottom:39px; left:187px; color:#4a4d5a; font-size:18px; line-height:27px; letter-spacing:-0.72px;}
+.rec_popup .section > div:nth-of-type(1){margin-top:100px}
+.rec_popup .section > div:nth-of-type(1) .combo-btn:nth-of-type(1){padding-right:30px; width:110px;}
+.rec_popup .section .combo-btn{background-color:transparent; font-size:21px; color:#1a1a1a; line-height:31px; letter-spacing:-0.42px; width:106px; font-weight:500; padding:0;}
+.rec_popup .section .combo-btn:nth-of-type(2){position:relative; right:3px}
+.rec_popup .section .combo-btn > span{position:relative; top:8px; right:30px;}
+.rec_popup .section .combo-btn{width:80px}
+.rec_popup .section .combo-btn > span{right:2px}
+.rec_popup .section > div > .combo-btn{border-bottom:3px solid #ffd41d; border-radius:0;}
 .rec_popup .tri{width: 0px;height: 0px;border-top:22px solid #fff;border-bottom:22px solid none;border-right: 14px solid transparent;border-left: 14px solid transparent;position:absolute;bottom:-13px;left:32px}
 .rec_popup .x-btn{position:absolute;bottom:-78px;left:16px; background-color:#fff; width:60px; height:60px; border-radius:50%;}
 .rec_popup .x-btn span{width:60px; height:60px; display:block; background:url(../image/ico_close.svg) no-repeat center center;}
@@ -549,15 +564,19 @@
 /* HOM_01_REC_02 */
 .cont-wrap.hom_01_rec_02 > p{font-size:16px; line-height:26px; letter-spacing:-0.8px; color:#1a1a1a; font-weight:500; margin-top:6px;}
 .cont-wrap.hom_01_rec_02 > p > span{background-color:rgba(255, 212, 29, 0.41); line-height:16px; display:inline-block;}
-.cont-wrap.hom_01_rec_02 .car_recomend{position:absolute; top:186px; width:100%; height:600px; left:0; background-color:#fff; box-shadow: 0px -8px 0px 0px rgba(240,240,240,1);}
+.cont-wrap .car_recomend{position:absolute; top:186px; width:100%; height:600px; left:0; background-color:#fff; box-shadow: 0px -8px 0px 0px rgba(240,240,240,1);}
 .cont-wrap.hom_01_rec_02 .car_recomend .reco-box{padding:14px 16px 0;}
 .cont-wrap.hom_01_rec_02 .car_recomend .reco-box div:nth-of-type(2){display:flex;}
 .cont-wrap.hom_01_rec_02 .car_recomend .reco-box .check{display:flex; justify-content:space-between;}
-.cont-wrap.hom_01_rec_02 .car_recomend .reco-box .check div:nth-of-type(1){width:24px; height:24px; background-color:red;}
+.cont-wrap.hom_01_rec_02 .car_recomend .reco-box .check div:nth-of-type(1){width:24px; height:24px; background:url(../image/com_radiobutton_off.svg);}
+.cont-wrap.hom_01_rec_02 .car_recomend .reco-box.active{background-color:rgba(255, 251, 233, 0.5);}
+.cont-wrap.hom_01_rec_02 .car_recomend .reco-box.active .check div:nth-of-type(1){width:26px; height:26px; background:url(../image/com_radiobutton_on.svg); background-position-x:-3px;}
 .cont-wrap.hom_01_rec_02 .car_recomend .reco-box .check div:nth-of-type(2){display:flex;}
-.cont-wrap.hom_01_rec_02 .car_recomend .reco-box .check div:nth-of-type(2) > p{width:62px; height:22px}
-.cont-wrap.hom_01_rec_02 .car_recomend .tran-thumbnail{width:136px; margin-right:24px}
-.cont-wrap.hom_01_rec_02 .car_recomend .tran-thumbnail img{width:100%; height:auto}
+.cont-wrap.hom_01_rec_02 .car_recomend .reco-box .check div:nth-of-type(2) > p{height:22px; text-align:center; border-radius:11px; font-size:13px; letter-spacing:-0.65px; font-weight:500;}
+.cont-wrap.hom_01_rec_02 .car_recomend .reco-box .check div:nth-of-type(2) > p:nth-of-type(1){width:62px; background-color:rgba(162, 0, 0, 0.1); color:#a20000; border:1px solid #a20000;}
+.cont-wrap.hom_01_rec_02 .car_recomend .reco-box .check div:nth-of-type(2) > p:nth-of-type(2){width:73px; background-color:rgba(203, 116, 59, 0.1); color:#cb7435; border:1px solid #cb7435; margin-left:4px}
+.cont-wrap.hom_01_rec_02 .car_recomend .tran-thumbnail{width:136px; margin-right:24px;}
+.cont-wrap.hom_01_rec_02 .car_recomend .tran-thumbnail img{width:100%; height:auto; margin-left:4px}
 .cont-wrap.hom_01_rec_02 .car_recomend .tran-info .tran-name{font-size:13px; }
 .cont-wrap.hom_01_rec_02 .car_recomend .tran-info .tran-name .name-etc{color:#939393}
 .cont-wrap.hom_01_rec_02 .car_recomend .tran-info .tran-name .num{display:inline-block; }
@@ -572,3 +591,68 @@
 .cont-wrap.hom_01_rec_02 .car_recomend .tran-info .etc .ico{display:inline-block; width:20px; height:20px; margin-right:3px}
 .cont-wrap.hom_01_rec_02 .car_recomend .tran-info .etc .ico img{width:100%; height:100%}
 .cont-wrap.hom_01_rec_02 .car_recomend .tran-info .etc .wash{margin-left:10px}
+.cont-wrap.hom_01_rec_02 .car_recomend .event{margin-bottom:27px; margin-top:8px; color:#0e3180; line-height:19px; letter-spacing:-0.18px; font-weight:500; font-size:13px; background:url(../image/ico_coupon.svg) no-repeat center left; padding-left:22px; padding-bottom:2px;}
+.cont-wrap.hom_01_rec_02 .car_recomend .full-line{margin:10px 0 4px 0;}
+
+/* PAY_01_CAS_01 */
+.cont-wrap.pay_01_cas_01 .confirm_pop{position:absolute; width:230px; height:72px; z-index:9999; background-color:#a16912; padding:14px 16px; border-radius:10px; left:110px; top:190px; opacity:0.9}
+.cont-wrap.pay_01_cas_01 .confirm_pop > span{position:absolute; left:24px; top:-8px; width: 0px;height: 0px;
+    border-top:22px solid none;
+    border-bottom:22px solid #a16912;
+    border-right:14px solid transparent;
+    border-left:14px solid  transparent;}
+.cont-wrap.pay_01_cas_01 .confirm_pop > p{font-size:15px; line-height:22px; color:#fff; font-weight:200;}
+.cont-wrap.pay_01_cas_01 .confirm_pop > div{position:relative; left:133px; bottom:24px; color:#fff;}
+.cont-wrap.pay_01_cas_01 .confirm_pop > div > button{font-size:13px; color:#fff; font-weight:200;}
+.cont-wrap.pay_01_cas_01 .confirm_pop > div > button:nth-of-type(1):after{content:"I"; margin:0 3px 0 6px; opacity:0.5;}
+.cont-wrap.pay_01_cas_01 .top > div:nth-of-type(1){display: flex; justify-content:space-between;}
+.cont-wrap.pay_01_cas_01 .top > div:nth-of-type(1) > p{font-size:15px; color:#1a1a1a; line-height:34px; letter-spacing:-0.09px; font-weight:bold}
+.cont-wrap.pay_01_cas_01 .top > div:nth-of-type(1) > span{position:relative; top:7px; display:inline-block; width:24px; height:24px; background:url(../image/ico_edit_n.svg)}
+.cont-wrap.pay_01_cas_01 .top .add_box{padding:16px 0 0 20px; height:91px; background-color:#ffd41d; margin:6px 0; border-radius:15px;}
+.cont-wrap.pay_01_cas_01 .top .add_box p:nth-of-type(1){font-size:16px; color:#1a1a1a; line-height:34px; letter-spacing:-0.1px; font-weight:bold}
+.cont-wrap.pay_01_cas_01 .top .add_box p:nth-of-type(2){position:relative; bottom:8px; font-size:14px; color:#1a1a1a; line-height:34px;font-weight:400;}
+.cont-wrap.pay_01_cas_01 .cad1{position:absolute; top:232px; width:100%; height:576px; left:0; background-color:#fff; box-shadow: 0px -8px 0px 0px rgba(240,240,240,1); padding:18px 16px;}
+.cont-wrap.pay_01_cas_01 .cad1 > div:nth-of-type(1) > p{font-size:15px; letter-spacing:-0.09px; line-height:34px; color:#1a1a1a; font-weight:bold;}
+.cont-wrap.pay_01_cas_01 .cad1 > div:nth-of-type(1) > div{display:flex; justify-content:space-between; margin-top:6px;}
+.cont-wrap.pay_01_cas_01 .cad1 > div:nth-of-type(1) > div p:nth-of-type(1){font-size:14px; letter-spacing:-0.56px; color:#7b7d81; font-weight:500; background:url(../image/ico_info_etc_n.svg) no-repeat center right; background-position-x:80px; width:100px; background-position-y:1.5px;}
+.cont-wrap.pay_01_cas_01 .cad1 > div:nth-of-type(1) > div p:nth-of-type(2){font-size:16px; color:#1a1a1a; font-weight:500;}
+.cont-wrap.pay_01_cas_01 .cad1 > div:nth-of-type(3) > p{font-size:13px; letter-spacing:-0.08px; line-height:34px; color:#1a1a1a; font-weight:bold;}
+.cont-wrap.pay_01_cas_01 .cad1 > div:nth-of-type(3) > div{display:flex; justify-content:space-between;}
+.cont-wrap.pay_01_cas_01 .cad1 > div:nth-of-type(3) > div > div > p{font-size:14px; letter-spacing:-0.56px; color:#7b7d81; font-weight:400; margin-top:5px;}
+.cont-wrap.pay_01_cas_01 .cad1 > div:nth-of-type(3) > div > div > p:nth-of-type(1) > span{position:relative; left:40px; color:#4a4d5a}
+.cont-wrap.pay_01_cas_01 .cad1 > div:nth-of-type(3) > div > div > p:nth-of-type(2) > span{position:relative; left:12px; color:#4a4d5a}
+.cont-wrap.pay_01_cas_01 .cad1 > div:nth-of-type(3) > div:nth-of-type(2){margin-top:9px}
+.cont-wrap.pay_01_cas_01 .cad1 > div:nth-of-type(3) > div:nth-of-type(2) > p{font-size:14px; letter-spacing:-0.56px; color:#7b7d81; font-weight:500; margin-top:5px;}
+.cont-wrap.pay_01_cas_01 .cad1 > div:nth-of-type(3) > div:nth-of-type(2) > div > p:nth-of-type(1){font-size:16px; color:#252627; font-weight:500; margin-top:5px; position:relative; left:241px}
+.cont-wrap.pay_01_cas_01 .cad1 > div:nth-of-type(3) > div:nth-of-type(2) > div > p:nth-of-type(2){text-align:right}
+.cont-wrap.pay_01_cas_01 .cad1 > div:nth-of-type(3) > div > button{position:relative; top:10px; width:122px; height:40px; font-size:14px; color:#1a1a1a; line-height:20px; letter-spacing:-0.28px; font-weight:500; border:2px solid #d9d9d9; border-radius:6px; padding-left:16px; text-align:left; background:url(../image/ico_more_arrow_n.svg) no-repeat center right; background-position-x:96px;}
+.cont-wrap.pay_01_cas_01 .cad1 > div:nth-of-type(5) > div{display:flex; justify-content:space-between;}
+.cont-wrap.pay_01_cas_01 .cad1 > div:nth-of-type(5) > div > div{display:flex; justify-content:space-between;}
+.cont-wrap.pay_01_cas_01 .cad1 > div:nth-of-type(5) > div:nth-of-type(1) > p{font-size:13px; letter-spacing:-0.08px; line-height:40px; color:#1a1a1a; font-weight:bold;}
+.cont-wrap.pay_01_cas_01 .cad1 > div:nth-of-type(5) > div:nth-of-type(1) > p:nth-of-type(2){font-size:16px; line-height:40px; color:#1a1a1a; font-weight:bold;}
+.cont-wrap.pay_01_cas_01 .cad1 > div:nth-of-type(5) > div:nth-of-type(2) > p{font-size:14px; line-height:24px; color:#7b7d81; letter-spacing:-0.56px; font-weight:500;}
+.cont-wrap.pay_01_cas_01 .cad1 > div:nth-of-type(5) > div:nth-of-type(2) > div > div{width:107px; height:40px; background-color:#f0f0f0; color:#626572; font-size:16px;  font-weight:bold; line-height:40px; text-align:right; border-radius:6px; padding-right:12px}
+.cont-wrap.pay_01_cas_01 .cad1 > div:nth-of-type(5) > div:nth-of-type(2) > div > button{width:82px; height:40px; background-color:#4f5360; color:#fff; font-size:14px;  font-weight:300; line-height:40px; text-align:center; border-radius:6px; padding-right:0; letter-spacing:-0.28px; margin-left:4px}
+.cont-wrap.pay_01_cas_01 .cad1 > div:nth-of-type(7) > div{display:flex; justify-content:space-between;}
+.cont-wrap.pay_01_cas_01 .cad1 > div:nth-of-type(7) > p{font-size:16px; color:#939393; line-height:24px; position:absolute; right:16px; text-decoration:line-through;}
+.cont-wrap.pay_01_cas_01 .cad1 > div:nth-of-type(7) > div > p:nth-of-type(1){font-size:15px; color:#1a1a1a; line-height:34px; letter-spacing:-0.09px; font-weight:bold; margin-top:30px}
+.cont-wrap.pay_01_cas_01 .cad1 > div:nth-of-type(7) > div > p:nth-of-type(2){font-size:28px; color:#1a1a1a; line-height:37px; letter-spacing:-1.12px; font-weight:bold; position:relative; bottom:-26px;}
+.cont-wrap.pay_01_cas_01 .cad1 > div:nth-of-type(7) > div > p:nth-of-type(2) > span{font-size:15px; color:#1a1a1a; line-height:22px; font-weight:bold; margin-left:1px}
+.cont-wrap.pay_01_cas_01 .cad1 > div:nth-of-type(9) > div{display:flex; justify-content:space-between;}
+.cont-wrap.pay_01_cas_01 .cad1 > div:nth-of-type(9) > div > p:nth-of-type(1){font-size:14px; color:#7b7d81; line-height:34px; letter-spacing:-0.56px; font-weight:500}
+.cont-wrap.pay_01_cas_01 .cad1 > div:nth-of-type(9) > div > p:nth-of-type(2){font-size:16px; color:#dbaf38; line-height:30px; font-weight:bold}
+.cont-wrap.pay_01_cas_01 .cad2{position:absolute; top:838px; width:100%; height:134px; left:0; background-color:#fff; box-shadow: 0px -8px 0px 0px rgba(240,240,240,1); padding:20px 16px;}
+.cont-wrap.pay_01_cas_01 .cad2 > p{font-size:15px; color:#1a1a1a; line-height:34px; letter-spacing:-0.09px; font-weight:bold}
+.cont-wrap.pay_01_cas_01 .cad2 .add{width:100%; height:56px; background-color:#e8e8e8; margin-top:12px; border-radius:15px; line-height:56px; text-align:center; color:#4a4d5a; letter-spacing:-0.24px; font-size:15px; font-weight:500;}
+.cont-wrap.pay_01_cas_01 .cad2 .add > span{display:inline-block; position:relative; top:19px; right:5px; text-indent:-9999px; width:20px; height:20px; background:url(../image/ico_add_btn.svg) no-repeat;}
+.cont-wrap.pay_01_cas_01 .cad3{position:absolute; top:994px; width:100%; height:400px; left:0; background-color:#fff; box-shadow: 0px -8px 0px 0px rgba(240,240,240,1); padding:23px 16px;}
+.cont-wrap.pay_01_cas_01 .cad3 > p{margin-bottom:10px; font-size:13px; color:#a16912; letter-spacing:-0.08px; font-weight:500}
+.cont-wrap.pay_01_cas_01 .cad3 > div > div:nth-of-type(1){display:flex; justify-content:space-between; margin-top:50px}
+.cont-wrap.pay_01_cas_01 .cad3 > div > div:nth-of-type(1) > p{font-size:14px; color:#cf1f25; letter-spacing:-0.22px; font-weight:bold; background:url(../image/ico_warning.svg) no-repeat center left; padding-left:19px}
+.cont-wrap.pay_01_cas_01 .cad3 > div > div:nth-of-type(1) > button{background:url(../image/ico_more_arrow_n.svg) no-repeat center right; padding-right:21px; font-size:13px; color:#939393; letter-spacing:-0.26px; font-weight:500}
+.cont-wrap.pay_01_cas_01 .cad3 > div > div:nth-of-type(2) > p,
+.cont-wrap.pay_01_cas_01 .cad3 > div > div:nth-of-type(3) > p{font-size:13px; color:#cf1f25; letter-spacing:-0.98px; font-weight:500; margin-top:16px;}
+.cont-wrap.pay_01_cas_01 .cad3 > div > div:nth-of-type(2) > p:nth-of-type(2),
+.cont-wrap.pay_01_cas_01 .cad3 > div > div:nth-of-type(3) > p:nth-of-type(2){font-size:12px; color:#cf1f25; letter-spacing:-0.9px; font-weight:400; margin-top:3px}
+.cont-wrap.pay_01_cas_01 .full-line{margin:16px 0;}
+.cont-wrap.pay_01_cas_01 .full-line.dot{border:1px dashed #d6d6d9}
