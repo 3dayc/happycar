@@ -538,3 +538,37 @@
 .cont-wrap.lic_02_cas_01 table tbody tr:nth-of-type(3) td:nth-of-type(2) > .div .pass > span{display:inline-block; width:12px; height:12px; background-color:#626572; border-radius:50%; opacity:0.3; margin-left:2px}
 .cont-wrap.lic_02_cas_01 .minus{position:relative; left:-58px;}
 
+/* HOM_01_REC_01 */
+.bg-opa{position:absolute; left:0; top:0; width:100%; height:100%; background-color:#231f20; opacity: 0.8;}
+.rec_popup{position:absolute; left:0; top:0; width:100%; height:658px; background-color:#fff; z-index:999; border-radius:0 0 20px 20px;}
+.rec_popup .tri{width: 0px;height: 0px;border-top:22px solid #fff;border-bottom:22px solid none;border-right: 14px solid transparent;border-left: 14px solid transparent;position:absolute;bottom:-13px;left:32px}
+.rec_popup .x-btn{position:absolute;bottom:-78px;left:16px; background-color:#fff; width:60px; height:60px; border-radius:50%;}
+.rec_popup .x-btn span{width:60px; height:60px; display:block; background:url(../image/ico_close.svg) no-repeat center center;}
+.fix-btn-area.popup{position:absolute; bottom:-6px}
+
+/* HOM_01_REC_02 */
+.cont-wrap.hom_01_rec_02 > p{font-size:16px; line-height:26px; letter-spacing:-0.8px; color:#1a1a1a; font-weight:500; margin-top:6px;}
+.cont-wrap.hom_01_rec_02 > p > span{background-color:rgba(255, 212, 29, 0.41); line-height:16px; display:inline-block;}
+.cont-wrap.hom_01_rec_02 .car_recomend{position:absolute; top:186px; width:100%; height:600px; left:0; background-color:#fff; box-shadow: 0px -8px 0px 0px rgba(240,240,240,1);}
+.cont-wrap.hom_01_rec_02 .car_recomend .reco-box{padding:14px 16px 0;}
+.cont-wrap.hom_01_rec_02 .car_recomend .reco-box div:nth-of-type(2){display:flex;}
+.cont-wrap.hom_01_rec_02 .car_recomend .reco-box .check{display:flex; justify-content:space-between;}
+.cont-wrap.hom_01_rec_02 .car_recomend .reco-box .check div:nth-of-type(1){width:24px; height:24px; background-color:red;}
+.cont-wrap.hom_01_rec_02 .car_recomend .reco-box .check div:nth-of-type(2){display:flex;}
+.cont-wrap.hom_01_rec_02 .car_recomend .reco-box .check div:nth-of-type(2) > p{width:62px; height:22px}
+.cont-wrap.hom_01_rec_02 .car_recomend .tran-thumbnail{width:136px; margin-right:24px}
+.cont-wrap.hom_01_rec_02 .car_recomend .tran-thumbnail img{width:100%; height:auto}
+.cont-wrap.hom_01_rec_02 .car_recomend .tran-info .tran-name{font-size:13px; }
+.cont-wrap.hom_01_rec_02 .car_recomend .tran-info .tran-name .name-etc{color:#939393}
+.cont-wrap.hom_01_rec_02 .car_recomend .tran-info .tran-name .num{display:inline-block; }
+.cont-wrap.hom_01_rec_02 .car_recomend .tran-info .tran-name .num:before{content:'-'}
+.cont-wrap.hom_01_rec_02 .car_recomend .tran-info .tran-name .num em{display:inline-block; font-size:13pc; line-height:19px; padding:0 6px; background:#ebbd0c; color:#fff; font-weight:600; font-size:13px; border-radius:18px;}
+.cont-wrap.hom_01_rec_02 .car_recomend .tran-info .tran-name .num:before{content:'-'; margin-right:5px}
+.cont-wrap.hom_01_rec_02 .car_recomend .tran-info .cost {font-size:13px; margin-top:2px}
+.cont-wrap.hom_01_rec_02 .car_recomend .tran-info .cost em{font-size:28px; letter-spacing:-1px; line-height:33px; font-family:'Roboto'; font-weight:700; vertical-align:-1px; margin-right:2px}
+.cont-wrap.hom_01_rec_02 .car_recomend .tran-info .cost .speed{display:inline-block; padding-lefT:6px; margin-left:4px; position:relative}
+.cont-wrap.hom_01_rec_02 .car_recomend .tran-info .cost .speed:before{content:''; display:inline-block; height:10px; width:1px; background:#d6d6d9; position:absolute; left:0; top:5px}
+.cont-wrap.hom_01_rec_02 .car_recomend .tran-info .etc{font-size:13px; color:#9fa1a5; margin-top:7px}
+.cont-wrap.hom_01_rec_02 .car_recomend .tran-info .etc .ico{display:inline-block; width:20px; height:20px; margin-right:3px}
+.cont-wrap.hom_01_rec_02 .car_recomend .tran-info .etc .ico img{width:100%; height:100%}
+.cont-wrap.hom_01_rec_02 .car_recomend .tran-info .etc .wash{margin-left:10px}
