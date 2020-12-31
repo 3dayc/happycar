@@ -597,19 +597,21 @@
 .cont-wrap.hom_01_rec_02 .car_recomend .full-line{margin:0}
 
 /* PAY_01_CAS_01 */
+.cont-wrap.pay_01_cas_01{padding:0;}
 .cont-wrap.pay_01_cas_01 .confirm_pop{position:absolute; width:230px; height:72px; z-index:9999; background-color:#a16912; padding:14px 16px; border-radius:10px; left:110px; top:190px; opacity:0.9}
 .cont-wrap.pay_01_cas_01 .confirm_pop > span{position:absolute; left:24px; top:-8px; width: 0px;height: 0px;border-top:22px solid none;border-bottom:22px solid #a16912;border-right:14px solid transparent;border-left:14px solid  transparent;}
 .cont-wrap.pay_01_cas_01 .confirm_pop > p{font-size:15px; line-height:22px; color:#fff; font-weight:200;}
 .cont-wrap.pay_01_cas_01 .confirm_pop > div{position:relative; left:133px; bottom:24px; color:#fff;}
 .cont-wrap.pay_01_cas_01 .confirm_pop > div > button{font-size:13px; color:#fff; font-weight:200;}
 .cont-wrap.pay_01_cas_01 .confirm_pop > div > button:nth-of-type(1):after{content:"I"; margin:0 3px 0 6px; opacity:0.5;}
-.cont-wrap.pay_01_cas_01 .top > div:nth-of-type(1){display: flex; justify-content:space-between;}
-.cont-wrap.pay_01_cas_01 .top > div:nth-of-type(1) > p{font-size:15px; color:#1a1a1a; line-height:34px; letter-spacing:-0.09px; font-weight:bold}
-.cont-wrap.pay_01_cas_01 .top > div:nth-of-type(1) > span{position:relative; top:7px; display:inline-block; width:24px; height:24px; background:url(../image/ico_edit_n.svg)}
-.cont-wrap.pay_01_cas_01 .top .add_box{padding:16px 0 0 20px; height:91px; background-color:#ffd41d; margin:6px 0; border-radius:15px;}
-.cont-wrap.pay_01_cas_01 .top .add_box p:nth-of-type(1){font-size:16px; color:#1a1a1a; line-height:34px; letter-spacing:-0.1px; font-weight:bold}
-.cont-wrap.pay_01_cas_01 .top .add_box p:nth-of-type(2){position:relative; bottom:8px; font-size:14px; color:#1a1a1a; line-height:34px;font-weight:400;}
-.cont-wrap.pay_01_cas_01 .cad1{position:absolute; top:232px; width:100%; height:576px; left:0; background-color:#fff; box-shadow: 0px -8px 0px 0px rgba(240,240,240,1); padding:18px 16px;}
+.cont-wrap.pay_01_cas_01 .top{height:100%; padding:0 16px;}
+.cont-wrap.pay_01_cas_01 .top > .location{display: flex; justify-content:space-between;}
+.cont-wrap.pay_01_cas_01 .top > .location > p{font-size:15px; color:#1a1a1a; line-height:34px; letter-spacing:-0.09px; font-weight:bold}
+.cont-wrap.pay_01_cas_01 .top > .location > span{position:relative; top:7px; display:inline-block; width:24px; height:24px; background:url(../image/ico_edit_n.svg)}
+.cont-wrap.pay_01_cas_01 .top > .add_box{padding:16px 0 0 20px; height:91px; background-color:#ffd41d; margin:6px 0; border-radius:15px; box-shadow:0 4px 6px rgba(00,00,00,0.15), 0 4px 8px rgba(00,00,00,0.1)}
+.cont-wrap.pay_01_cas_01 .top > .add_box p:nth-of-type(1){font-size:16px; color:#1a1a1a; line-height:34px; letter-spacing:-0.1px; font-weight:bold}
+.cont-wrap.pay_01_cas_01 .top > .add_box p:nth-of-type(2){position:relative; bottom:8px; font-size:14px; color:#1a1a1a; line-height:34px;font-weight:400;}
+.cont-wrap.pay_01_cas_01 .cad1{width:100%; height:100%; left:0; background-color:#fcfcfc; box-shadow: 0px -8px 0px 0px rgba(240,240,240,1); padding:18px 16px; margin-top:30px;}
 .cont-wrap.pay_01_cas_01 .cad1 > div:nth-of-type(1) > p{font-size:15px; letter-spacing:-0.09px; line-height:34px; color:#1a1a1a; font-weight:bold;}
 .cont-wrap.pay_01_cas_01 .cad1 > div:nth-of-type(1) > div{display:flex; justify-content:space-between; margin-top:6px;}
 .cont-wrap.pay_01_cas_01 .cad1 > div:nth-of-type(1) > div p:nth-of-type(1){font-size:14px; letter-spacing:-0.56px; color:#7b7d81; font-weight:500; background:url(../image/ico_info_etc_n.svg) no-repeat center right; background-position-x:80px; width:100px; background-position-y:1.5px;}
@@ -620,9 +622,9 @@
 .cont-wrap.pay_01_cas_01 .cad1 > div:nth-of-type(3) > div > div > p:nth-of-type(1) > span{position:relative; left:40px; color:#4a4d5a}
 .cont-wrap.pay_01_cas_01 .cad1 > div:nth-of-type(3) > div > div > p:nth-of-type(2) > span{position:relative; left:12px; color:#4a4d5a}
 .cont-wrap.pay_01_cas_01 .cad1 > div:nth-of-type(3) > div:nth-of-type(2){margin-top:9px}
-.cont-wrap.pay_01_cas_01 .cad1 > div:nth-of-type(3) > div:nth-of-type(2) > p{font-size:14px; letter-spacing:-0.56px; color:#7b7d81; font-weight:500; margin-top:5px;}
-.cont-wrap.pay_01_cas_01 .cad1 > div:nth-of-type(3) > div:nth-of-type(2) > div > p:nth-of-type(1){font-size:16px; color:#252627; font-weight:500; margin-top:5px; position:relative; left:241px}
-.cont-wrap.pay_01_cas_01 .cad1 > div:nth-of-type(3) > div:nth-of-type(2) > div > p:nth-of-type(2){text-align:right}
+.cont-wrap.pay_01_cas_01 .cad1 > div:nth-of-type(3) > div:nth-of-type(2) > p{font-size:14px; letter-spacing:-0.56px; color:#7b7d81; font-weight:500; margin-top:5px; white-space:nowrap;}
+.cont-wrap.pay_01_cas_01 .cad1 > div:nth-of-type(3) > div:nth-of-type(2) > div > p:nth-of-type(1){font-size:16px; color:#252627; font-weight:500; position:absolute; right:16px; margin-top:1px;}
+.cont-wrap.pay_01_cas_01 .cad1 > div:nth-of-type(3) > div:nth-of-type(2) > div > p:nth-of-type(2){text-align:right; white-space:nowrap; margin-top:30px;}
 .cont-wrap.pay_01_cas_01 .cad1 > div:nth-of-type(3) > div > button{position:relative; top:10px; width:122px; height:40px; font-size:14px; color:#1a1a1a; line-height:20px; letter-spacing:-0.28px; font-weight:500; border:2px solid #d9d9d9; border-radius:6px; padding-left:16px; text-align:left; background:url(../image/ico_more_arrow_n.svg) no-repeat center right; background-position-x:96px;}
 .cont-wrap.pay_01_cas_01 .cad1 > div:nth-of-type(5) > div{display:flex; justify-content:space-between;}
 .cont-wrap.pay_01_cas_01 .cad1 > div:nth-of-type(5) > div > div{display:flex; justify-content:space-between;}
@@ -639,13 +641,14 @@
 .cont-wrap.pay_01_cas_01 .cad1 > div:nth-of-type(9) > div{display:flex; justify-content:space-between;}
 .cont-wrap.pay_01_cas_01 .cad1 > div:nth-of-type(9) > div > p:nth-of-type(1){font-size:14px; color:#7b7d81; line-height:34px; letter-spacing:-0.56px; font-weight:500}
 .cont-wrap.pay_01_cas_01 .cad1 > div:nth-of-type(9) > div > p:nth-of-type(2){font-size:16px; color:#dbaf38; line-height:30px; font-weight:bold}
-.cont-wrap.pay_01_cas_01 .cad2{position:absolute; top:838px; width:100%; height:134px; left:0; background-color:#fff; box-shadow: 0px -8px 0px 0px rgba(240,240,240,1); padding:20px 16px;}
+.cont-wrap.pay_01_cas_01 .cad2{width:100%; height:100%; left:0; background-color:#fcfcfc; box-shadow: 0px -8px 0px 0px rgba(240,240,240,1); padding:20px 16px; margin-top:4px;}
 .cont-wrap.pay_01_cas_01 .cad2 > p{font-size:15px; color:#1a1a1a; line-height:34px; letter-spacing:-0.09px; font-weight:bold}
 .cont-wrap.pay_01_cas_01 .cad2 .add{width:100%; height:56px; background-color:#e8e8e8; margin-top:12px; border-radius:15px; line-height:56px; text-align:center; color:#4a4d5a; letter-spacing:-0.24px; font-size:15px; font-weight:500;}
 .cont-wrap.pay_01_cas_01 .cad2 .add > span{display:inline-block; position:relative; top:19px; right:5px; text-indent:-9999px; width:20px; height:20px; background:url(../image/ico_add_btn.svg) no-repeat;}
-.cont-wrap.pay_01_cas_01 .cad3{position:absolute; top:994px; width:100%; height:400px; left:0; background-color:#fff; box-shadow: 0px -8px 0px 0px rgba(240,240,240,1); padding:23px 16px;}
-.cont-wrap.pay_01_cas_01 .cad3 > p{margin-bottom:10px; font-size:13px; color:#a16912; letter-spacing:-0.08px; font-weight:500}
-.cont-wrap.pay_01_cas_01 .cad3 > div > div:nth-of-type(1){display:flex; justify-content:space-between; margin-top:50px}
+.cont-wrap.pay_01_cas_01 .cad3{width:100%; height:100%; left:0; background-color:#fff; box-shadow: 0px -8px 0px 0px rgba(240,240,240,1); padding:23px 0 0 0; margin-top:23px;}
+.cont-wrap.pay_01_cas_01 .cad3 > p{margin-bottom:10px; font-size:13px; color:#a16912; letter-spacing:-0.08px; font-weight:500; padding:0 16px}
+.cont-wrap.pay_01_cas_01 .cad3 > div{background-color:#f5f5f4; padding:20px 16px; margin-top:24px;}
+.cont-wrap.pay_01_cas_01 .cad3 > div > div:nth-of-type(1){display:flex; justify-content:space-between;}
 .cont-wrap.pay_01_cas_01 .cad3 > div > div:nth-of-type(1) > p{font-size:14px; color:#cf1f25; letter-spacing:-0.22px; font-weight:bold; background:url(../image/ico_warning.svg) no-repeat center left; padding-left:19px}
 .cont-wrap.pay_01_cas_01 .cad3 > div > div:nth-of-type(1) > button{background:url(../image/ico_more_arrow_n.svg) no-repeat center right; padding-right:21px; font-size:13px; color:#939393; letter-spacing:-0.26px; font-weight:500}
 .cont-wrap.pay_01_cas_01 .cad3 > div > div:nth-of-type(2) > p,
@@ -654,3 +657,31 @@
 .cont-wrap.pay_01_cas_01 .cad3 > div > div:nth-of-type(3) > p:nth-of-type(2){font-size:12px; color:#cf1f25; letter-spacing:-0.9px; font-weight:400; margin-top:3px}
 .cont-wrap.pay_01_cas_01 .full-line{margin:16px 0;}
 .cont-wrap.pay_01_cas_01 .full-line.dot{border:1px dashed #d6d6d9}
+
+/* PAY_01 */
+.top .pay_info > p{font-size:15px; letter-spacing:-0.09px; color:#1a1a1a; font-weight:bold; margin-bottom:12px}
+.top .pay_info > div{display:flex; justify-content:space-between;}
+.top .pay_info > div > p{color:#7b7d81; font-size:14px; letter-spacing:-0.56px; font-weight:400;}
+.top .pay_info > div:nth-of-type(1){margin-bottom:20px;}
+.top .pay_info > div:nth-of-type(1) p:nth-of-type(1){background:url(../image/ico_info_etc_n.svg) no-repeat center right; width:156px; background-position-y:2px;}
+.top .pay_info > div:nth-of-type(1) span{opacity:0.2; position:relative; top:1px}
+.top .pay_info .insur > div > p:nth-of-type(1){font-size:16px; color:#252627; letter-spacing:0.1px; float:right; margin-bottom:8px;}
+.top .pay_info .insur > div > p:nth-of-type(1) > span:nth-of-type(2){font-size:14px; letter-spacing:-0.56px; color:#7b7d81;}
+.top .pay_info .insur > div > p:nth-of-type(2){font-size:16px; color:#252627; letter-spacing:0.1px;}
+.top .pay_info .insur > div > p:nth-of-type(1) > span:nth-of-type(1),
+.top .pay_info .insur > div > p:nth-of-type(2) > span:nth-of-type(1){display:inline-block; width:27px; height:26px; background:url(../image/com_radiobutton_off.svg) no-repeat; position:relative; top:7px; right:1px;}
+.top .pay_info .insur > div > p:nth-of-type(1) > span:nth-of-type(1).active,
+.top .pay_info .insur > div > p:nth-of-type(2) > span:nth-of-type(1).active{display:inline-block; width:27px; height:26px; background:url(../image/com_radiobutton_on.svg) no-repeat; position:relative; top:6px; right:5px}
+.top .pay_info .insur > div > p:nth-of-type(2) > span:nth-of-type(2){font-size:14px; letter-spacing:-0.56px; color:#7b7d81;}
+.top .pay_info > div:nth-of-type(3){margin-top:22px;}
+.top .pay_info > div > p.fee{font-size:16px; color:#252627; letter-spacing:0.2px;}
+.top .sum_pay{display:flex; justify-content:space-between; padding-top:5px;}
+.top .sum_pay p:nth-of-type(1){font-size:14px; color:#7b7d81; font-weight:500; letter-spacing:-0.56px;}
+.top .sum_pay p:nth-of-type(2){font-size:16px; color:#252627; font-weight:bold}
+.cad2 .card_title{display:flex; justify-content:space-between;}
+.cad2 .card_title > p{color:#1a1a1a; font-size:15px; letter-spacing:-0.09px; font-weight:bold}
+.cad2 .card_title > span{display:block; width:24px; height:24px; background:url(../image/ico_edit_n.svg); text-indent:-9999px;}
+.cad2 .card_box{width:328px; height:192px; background-color:#232839; margin:12px auto -10px; border-radius:15px; box-shadow:0 4px 6px rgba(00,00,00,0.15), 0 4px 8px rgba(00,00,00,0.1); padding:20px;}
+.cad2 .card_box p:nth-of-type(1){color:#ffd41d; font-size:16px; letter-spacing:-0.1px; font-weight:bold;}
+.cad2 .card_box > span{display:block; width:40px; height:26px; background:url(../image/img_logo_master.svg); text-indent:-9999px; margin-top:73px;}
+.cad2 .card_box p:nth-of-type(2){font-size:14px; color:#fff; font-weight:200; letter-spacing:0.6px; margin-top:7px;}
