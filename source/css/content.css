@@ -919,3 +919,29 @@
 /* SMT_POP_02_RES_EAR_01 */
 .SMT_POP_02_RES .divide .alram.ear{margin-top:200px}
 .SMT_POP_02_RES.ext .top .date-box .time_line.ear > div > p{font-size:11px; line-height:17px; color:#b9bbc1; background:none; margin-bottom:9px; width:56px; position: relative; left:2px}
+
+/* MYP_MAN_POP_01 */
+.cont-wrap.myp .alert{display:flex; padding:11px 12px; background:#fff2bc; border-radius:9px; margin-bottom:18px}
+.cont-wrap.myp .alert > span{display:block; width:30px; height:30px; text-indent:-9999px; background:url(../image/ico_caution.svg); margin:3px 8px 0 0;}
+.cont-wrap.myp .alert > p{font-size:13px; line-height:18px; letter-spacing:-0.52px; color:#a16912}
+.cont-wrap.myp .point_table thead{border-top:2px solid #1a1a1a;}
+.cont-wrap.myp .point_table thead th{height:43px; line-height:43px; text-align:center;}
+.cont-wrap.myp .point_table tbody{border-top:1px solid #7a7a7a; border-bottom:1px solid #7a7a7a;}
+.cont-wrap.myp .point_table tbody tr{height:44px; border-bottom:1px solid #c5c5c5}
+.cont-wrap.myp .point_table tbody tr:nth-last-child(1){border-bottom:none;}
+.cont-wrap.myp .point_table tbody tr td{line-height:44px; text-align:center}
+.cont-wrap.myp .point_table tbody tr td:nth-child(1){width:71px; background:rgba(74, 77, 90, 0.2); font-size:13px; letter-spacing:-0.3px; color:#4a4d5a; opacity:0.5; font-weight:bold}
+.cont-wrap.myp .point_table tbody tr td:nth-child(2){width:122px; font-weight:bold}
+.cont-wrap.myp .point_table tbody tr td:nth-child(3){font-weight:bold}
+.cont-wrap.myp .tip{font-size:13px; line-height:19px; letter-spacing:-0.21px; color:#939393; margin-top:10px}
+.cont-wrap.myp .tip > span{display:inline-block; width:18px; height:18px; text-indent:-9999px; background:url(../image/ico_18_info.svg); margin-right:5px; position:relative; top:1px}
+
+/* MYP_MEM_02 */
+.cont-wrap.myp .point_table tbody tr.tow_line{height:64px;}
+.cont-wrap.myp .point_table tbody tr.tow_line td:nth-of-type(1){line-height:64px;}
+.cont-wrap.myp .point_table tbody tr.tow_line td:nth-of-type(2){line-height:64px;}
+.cont-wrap.myp .point_table tbody tr.tow_line td:nth-of-type(3){position:relative}
+.cont-wrap.myp .point_table tbody tr.tow_line td:nth-of-type(3) > p{line-height:20px; position:absolute; left:50%; top:50%; transform:translate(-50%, -50%);}
+
+
+
