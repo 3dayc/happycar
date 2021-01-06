@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="31" height="31" viewBox="0 0 31 31">
+    <defs>
+        <filter id="jh4ubxloaa" width="31" height="31" x="0" y="0" filterUnits="userSpaceOnUse">
+            <feOffset dy="2"/>
+            <feGaussianBlur result="blur" stdDeviation="1.5"/>
+            <feFlood flood-opacity=".18"/>
+            <feComposite in2="blur" operator="in"/>
+            <feComposite in="SourceGraphic"/>
+        </filter>
+    </defs>
+    <g>
+        <path fill="rgba(0,0,0,0)" d="M0 0H24V24H0z" transform="translate(3.5 1.5)"/>
+        <g filter="url(#jh4ubxloaa)" transform="translate(3.5 1.5) translate(-3.5 -1.5)">
+            <rect width="22" height="22" fill="#1a1a1a" rx="11" transform="translate(4.5 2.5)"/>
+        </g>
+        <path d="M-208.169 339.89a1 1 0 0 0-1.414-.037l-7.232 6.859-2.974-3.188a1 1 0 0 0-1.413-.049 1 1 0 0 0-.049 1.413l4.349 4.664 8.695-8.248a1 1 0 0 0 .038-1.414z" transform="translate(3.5 1.5) translate(226.76 -332.379)" style="isolation:isolate" fill="#fdd056"/>
+    </g>
+</svg>

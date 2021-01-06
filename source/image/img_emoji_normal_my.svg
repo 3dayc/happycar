@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" id="img_emoji_normal_my" width="72" height="72" viewBox="0 0 72 72">
+    <defs>
+        <linearGradient id="linear-gradient" x1=".158" x2=".653" y1="-.153" y2="1" gradientUnits="objectBoundingBox">
+            <stop offset="0" stop-color="#ffd41d"/>
+            <stop offset=".271" stop-color="#ffe51d"/>
+            <stop offset=".892" stop-color="#ffb91d"/>
+            <stop offset="1" stop-color="#ffe51d"/>
+        </linearGradient>
+        <clipPath id="clip-path"/>
+        <style>
+            .cls-6{fill:#1a1a1a}
+        </style>
+    </defs>
+    <g id="마스크_그룹_160" clip-path="url(#clip-path)">
+        <g id="그룹_43284">
+            <circle id="타원_1441" cx="12" cy="12" r="12" fill="#a16912" transform="translate(24 23.5)"/>
+            <g id="그룹_43219" transform="translate(-118 -155.5)">
+                <circle id="타원_1438" cx="17" cy="17" r="17" fill="url(#linear-gradient)" opacity="0.2" transform="translate(137 174.773)"/>
+                <circle id="타원_1442" cx="17" cy="17" r="17" fill="url(#linear-gradient)" transform="translate(137 174)"/>
+                <circle id="타원_1439" cx="1.739" cy="1.739" r="1.739" class="cls-6" transform="translate(148.205 187.523)"/>
+                <circle id="타원_1440" cx="1.739" cy="1.739" r="1.739" class="cls-6" transform="translate(157.091 187.523)"/>
+                <rect id="사각형_18714" width="10.818" height="2.705" class="cls-6" rx="1.352" transform="translate(148.977 194.091)"/>
+            </g>
+        </g>
+    </g>
+</svg>
