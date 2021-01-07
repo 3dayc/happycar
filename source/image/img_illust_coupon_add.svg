@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="102" height="102" viewBox="0 0 102 102">
+    <defs>
+        <filter id="사각형_16016" width="102" height="102" x="0" y="5" filterUnits="userSpaceOnUse">
+            <feOffset dy="5"/>
+            <feGaussianBlur result="blur" stdDeviation="5"/>
+            <feFlood flood-opacity=".161"/>
+            <feComposite in2="blur" operator="in"/>
+            <feComposite in="SourceGraphic"/>
+        </filter>
+        <filter id="사각형_17233" width="102" height="102" x="0" y="-7" filterUnits="userSpaceOnUse">
+            <feOffset dy="-7"/>
+            <feGaussianBlur result="blur-2" stdDeviation="5"/>
+            <feFlood flood-color="#fff" flood-opacity=".969"/>
+            <feComposite in2="blur-2" operator="in"/>
+            <feComposite in="SourceGraphic"/>
+        </filter>
+        <filter id="패스_33214" width="70" height="48" x="16" y="30" filterUnits="userSpaceOnUse">
+            <feOffset dy="3"/>
+            <feGaussianBlur result="blur-3" stdDeviation="3"/>
+            <feFlood flood-color="#a26a00" flood-opacity=".345"/>
+            <feComposite in2="blur-3" operator="in"/>
+            <feComposite in="SourceGraphic"/>
+        </filter>
+        <clipPath id="clip-path">
+            <path id="area" d="M0 0H102V102H0z" class="cls-1" transform="translate(116 118)"/>
+        </clipPath>
+        <style>
+            .cls-1,.cls-3{fill:#fff}.cls-1{opacity:0}
+        </style>
+    </defs>
+    <g id="img_illust_coupon_add" transform="translate(-116 -118)">
+        <path id="area-2" d="M0 0H102V102H0z" class="cls-1" transform="translate(116 118)"/>
+        <g id="마스크_그룹_158" clip-path="url(#clip-path)">
+            <g id="그룹_42301">
+                <g filter="url(#사각형_16016)" transform="translate(116 118)">
+                    <rect id="사각형_16016-2" width="72" height="72" class="cls-3" rx="36" transform="translate(15 15)"/>
+                </g>
+                <g filter="url(#사각형_17233)" transform="translate(116 118)">
+                    <rect id="사각형_17233-2" width="72" height="72" class="cls-3" rx="36" transform="translate(15 15)"/>
+                </g>
+            </g>
+        </g>
+        <g id="그룹_41921" transform="translate(141 154)">
+            <g filter="url(#패스_33214)" transform="translate(-25 -36)">
+                <path id="패스_33214-2" fill="#ffd41d" d="M92.229 233.087v-.228h-52v.228a.556.556 0 1 1 0 1.112v.561a.556.556 0 1 1 0 1.112v.561a.556.556 0 1 1 0 1.112v.561a.556.556 0 1 1 0 1.112v.561a.556.556 0 1 1 0 1.112v.561a.556.556 0 1 1 0 1.112v.561a.556.556 0 1 1 0 1.112v.5a3.062 3.062 0 0 1 .28 6.114.561.561 0 0 1-.28.076v.561a.556.556 0 1 1 0 1.112v.561a.556.556 0 1 1 0 1.112v.561a.556.556 0 1 1 0 1.112v.561a.556.556 0 1 1 0 1.112v.561a.556.556 0 1 1 0 1.112v.561a.556.556 0 1 1 0 1.112v.561a.556.556 0 1 1 0 1.112v.228h52v-.228a.556.556 0 1 1 0-1.112v-.561a.556.556 0 1 1 0-1.112v-.561a.556.556 0 1 1 0-1.112v-.561a.556.556 0 1 1 0-1.112v-.561a.556.556 0 1 1 0-1.112v-.561a.556.556 0 1 1 0-1.112v-.561a.556.556 0 1 1 0-1.112v-.561h-.009a3.064 3.064 0 1 1 0-6.128h.009v-.561a.556.556 0 1 1 0-1.112v-.561a.556.556 0 1 1 0-1.112v-.561a.556.556 0 1 1 0-1.112v-.561a.556.556 0 1 1 0-1.112v-.561a.556.556 0 1 1 0-1.112v-.561a.556.556 0 1 1 0-1.112v-.561a.556.556 0 1 1 0-1.112z" transform="translate(-15.23 -196.86)"/>
+            </g>
+            <text id="coupon" fill="#a26a00" font-family="NIXGONB-Vb, 'NIXGONFONTS V2.0'" font-size="8px" letter-spacing="-0.08em" transform="translate(10 18)">
+                <tspan x="0" y="0">COUPON</tspan>
+            </text>
+            <g id="그룹_41915" opacity="0.5" transform="translate(6 3)">
+                <path id="패스_33215" fill="#a26a00" d="M97.076 266.385H59.883a1.389 1.389 0 0 1-1.4-1.371v-21.258a1.39 1.39 0 0 1 1.4-1.371h37.193a1.389 1.389 0 0 1 1.4 1.371v21.257a1.389 1.389 0 0 1-1.4 1.372zm-37.193-23.314a.7.7 0 0 0-.7.686v21.257a.7.7 0 0 0 .7.686h37.193a.7.7 0 0 0 .7-.686v-21.258a.7.7 0 0 0-.7-.686z" transform="translate(-58.479 -242.385)"/>
+            </g>
+        </g>
+    </g>
+</svg>
