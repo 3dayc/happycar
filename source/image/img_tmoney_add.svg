@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="102" height="102" viewBox="0 0 102 102">
+    <defs>
+        <filter id="사각형_16016" width="102" height="102" x="0" y="5" filterUnits="userSpaceOnUse">
+            <feOffset dy="5"/>
+            <feGaussianBlur result="blur" stdDeviation="5"/>
+            <feFlood flood-opacity=".161"/>
+            <feComposite in2="blur" operator="in"/>
+            <feComposite in="SourceGraphic"/>
+        </filter>
+        <filter id="사각형_17233" width="102" height="102" x="0" y="-7" filterUnits="userSpaceOnUse">
+            <feOffset dy="-7"/>
+            <feGaussianBlur result="blur-2" stdDeviation="5"/>
+            <feFlood flood-color="#fff" flood-opacity=".969"/>
+            <feComposite in2="blur-2" operator="in"/>
+            <feComposite in="SourceGraphic"/>
+        </filter>
+        <filter id="패스_33632" width="39.247" height="41.761" x="34.433" y="33.122" filterUnits="userSpaceOnUse">
+            <feOffset dy="2"/>
+            <feGaussianBlur result="blur-3" stdDeviation="1"/>
+            <feFlood flood-opacity=".063"/>
+            <feComposite in2="blur-3" operator="in"/>
+            <feComposite in="SourceGraphic"/>
+        </filter>
+        <linearGradient id="linear-gradient" x1=".5" x2=".5" y2="1" gradientUnits="objectBoundingBox">
+            <stop offset="0" stop-color="#ffd41d"/>
+            <stop offset="1" stop-color="#ffd41d" stop-opacity="0"/>
+        </linearGradient>
+        <clipPath id="clip-path"/>
+        <style>
+            .cls-4{fill:#fff}
+        </style>
+    </defs>
+    <g id="img_tmoney_add" transform="translate(-116 -117)">
+        <g id="마스크_그룹_158" clip-path="url(#clip-path)" transform="translate(0 -1)">
+            <path id="bg" fill="#fcfcfc" d="M0 0H102V102H0z" transform="translate(116 118)"/>
+            <g id="그룹_42301">
+                <g filter="url(#사각형_16016)" transform="translate(116 118)">
+                    <rect id="사각형_16016-2" width="72" height="72" class="cls-4" rx="36" transform="translate(15 15)"/>
+                </g>
+                <g filter="url(#사각형_17233)" transform="translate(116 118)">
+                    <rect id="사각형_17233-2" width="72" height="72" class="cls-4" rx="36" transform="translate(15 15)"/>
+                </g>
+            </g>
+        </g>
+        <text id="A1B23D4" fill="#a16912" font-family="NotoSansCJKkr-Bold, Noto Sans CJK KR" font-size="12px" font-weight="700" letter-spacing="-0.04em" transform="translate(167 170)">
+            <tspan x="-24.912" y="0">A1B23D4</tspan>
+        </text>
+        <g id="그룹_42300" transform="translate(-17.317 28.583)">
+            <circle id="타원_1404" cx="12.5" cy="12.5" r="12.5" fill="url(#linear-gradient)" opacity="0.3" transform="translate(172.317 124.417)"/>
+            <g filter="url(#패스_33632)" transform="translate(133.32 88.42)">
+                <path id="패스_33632-2" fill="#ffd41d" d="M-7.366 1264.158l-9.349-9.785a13.728 13.728 0 0 0 4.049-9.743 13.788 13.788 0 0 0-13.772-13.772 13.788 13.788 0 0 0-13.772 13.772 13.79 13.79 0 0 0 13.771 13.77 13.685 13.685 0 0 0 7.439-2.2l9.526 9.968a1.456 1.456 0 0 0 1.053.45 1.456 1.456 0 0 0 1-.4 1.457 1.457 0 0 0 .055-2.06zM-37.3 1244.63a10.876 10.876 0 0 1 10.864-10.863 10.877 10.877 0 0 1 10.864 10.863 10.879 10.879 0 0 1-10.867 10.87 10.877 10.877 0 0 1-10.861-10.87z" transform="translate(77.64 -1196.74)"/>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" id="img_alarm_activity" width="40" height="40" viewBox="0 0 40 40">
+    <defs>
+        <style>
+            .cls-2{fill:#2b903f}
+        </style>
+    </defs>
+    <circle id="타원_238" cx="20" cy="20" r="20" fill="#e2f2e5"/>
+    <g id="그룹_42059" transform="translate(415.109 -709.398)">
+        <circle id="타원_1014" cx="1.25" cy="1.25" r="1.25" class="cls-2" transform="translate(-403.109 722.398)"/>
+        <circle id="타원_1015" cx="1.25" cy="1.25" r="1.25" class="cls-2" transform="translate(-403.109 728.398)"/>
+        <circle id="타원_1016" cx="1.25" cy="1.25" r="1.25" class="cls-2" transform="translate(-403.109 734.398)"/>
+        <path id="패스_31530" d="M-398.849 724.4h11.515a.751.751 0 0 0 .75-.75.751.751 0 0 0-.75-.75h-11.515a.751.751 0 0 0-.75.75.751.751 0 0 0 .75.75z" class="cls-2"/>
+        <path id="패스_31531" d="M-387.334 728.9h-11.515a.751.751 0 0 0-.75.75.751.751 0 0 0 .75.75h11.515a.751.751 0 0 0 .75-.75.751.751 0 0 0-.75-.75z" class="cls-2"/>
+        <path id="패스_31532" d="M-387.334 734.9h-11.515a.751.751 0 0 0-.75.75.751.751 0 0 0 .75.75h11.515a.751.751 0 0 0 .75-.75.751.751 0 0 0-.75-.75z" class="cls-2"/>
+    </g>
+</svg>
