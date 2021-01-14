@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="9" height="69.099" viewBox="0 0 9 69.099">
+    <defs>
+        <style>
+            .cls-1{fill:#d09e17;stroke:#d09e17;stroke-width:.3px}
+        </style>
+    </defs>
+    <g id="img_logo_happycar" transform="rotate(90 67.374 39.422)">
+        <g id="그룹_40591" transform="translate(23.533 90.422)">
+            <path id="패스_30455" d="M47.015 215.817H44.6V213.4a.518.518 0 0 0-1.037 0v2.412h-2.41a.518.518 0 1 0 0 1.037h2.413v2.412a.518.518 0 0 0 1.037 0v-2.412h2.412a.518.518 0 1 0 0-1.037z" class="cls-1" transform="translate(-36.066 -204.29)"/>
+            <path id="패스_30456" d="M61.869 218.539h-5.862a.518.518 0 1 0 0 1.037h5.861a.518.518 0 1 0 0-1.037z" class="cls-1" transform="translate(-43.219 -207.012)"/>
+            <path id="패스_30457" d="M89.387 218.539h-5.862a.518.518 0 1 0 0 1.037h5.861a.518.518 0 1 0 0-1.037z" class="cls-1" transform="translate(-56.471 -207.012)"/>
+            <path id="패스_30458" d="M75.476 214.859a.518.518 0 0 0-.733 0l-1.706 1.706-1.706-1.706a.518.518 0 1 0-.733.733L72.3 217.3l-1.7 1.7a.518.518 0 1 0 .733.733l1.706-1.706 1.706 1.706a.518.518 0 0 0 .733-.733l-1.708-1.7 1.706-1.706a.518.518 0 0 0 0-.735z" class="cls-1" transform="translate(-50.422 -205.167)"/>
+            <path id="패스_30459" d="M88.913 215.317a.8.8 0 1 0-.8-.8.8.8 0 0 0 .8.8z" class="cls-1" transform="translate(-58.928 -204.686)"/>
+            <path id="패스_30460" d="M88.913 222.064a.8.8 0 1 0 .8.8.805.805 0 0 0-.8-.8z" class="cls-1" transform="translate(-58.928 -208.71)"/>
+        </g>
+        <text id="행복카_맴버쉽" fill="#a16912" font-family="NotoSansCJKkr-Bold, Noto Sans CJK KR" font-size="6px" font-weight="700" letter-spacing="-0.015em" opacity="0.6" transform="translate(63.051 104.795)">
+            <tspan x="0" y="0">행복카 맴버쉽</tspan>
+        </text>
+    </g>
+</svg>

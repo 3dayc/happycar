@@ -1223,6 +1223,18 @@ table .tit .circle{display:inline-block; width:16px; height:16px; background:#24
 .cont-wrap.drw_use_app.rsv_01{background:url(../image/img_join_use_app_03.png) no-repeat center; background-color:#ffd41d; background-position-y:-82px;}
 .cont-wrap.drw_use_app.rsv_02{background:url(../image/img_join_use_app_04.png) no-repeat center; background-color:#ffd41d; background-position-y:-82px;}
 .cont-wrap.drw_use_app.rsv_03{background:url(../image/img_join_use_app_05.png) no-repeat center; background-color:#ffd41d; background-position-y:-82px;}
+.cont-wrap.drw_use_app.dir_01{background:url(../image/img_join_use_app_06.png) no-repeat center; background-color:#ffd41d; background-position-y:-82px;}
+.cont-wrap.drw_use_app.dir_02{background:url(../image/img_join_use_app_07.png) no-repeat center; background-color:#ffd41d; background-position-y:-82px;}
+.cont-wrap.drw_use_app.dir_03{background:url(../image/img_join_use_app_08.png) no-repeat center; background-color:#ffd41d; background-position-y:-82px;}
+.cont-wrap.drw_use_app.smt_01{background:url(../image/img_join_use_app_09.png) no-repeat center; background-color:#ffd41d; background-position-y:-82px;}
+.cont-wrap.drw_use_app.smt_02{background:url(../image/img_join_use_app_10.png) no-repeat center; background-color:#ffd41d; background-position-y:-82px;}
+.cont-wrap.drw_use_app.smt_03{background:url(../image/img_join_use_app_11.png) no-repeat center; background-color:#ffd41d; background-position-y:-82px;}
+.cont-wrap.drw_use_app.ret_01{background:url(../image/img_join_use_app_12.png) no-repeat center; background-color:#ffd41d; background-position-y:-82px;}
+.cont-wrap.drw_use_app.rep_01{background:url(../image/img_join_use_app_13.png) no-repeat center; background-color:#ffd41d; background-position-y:-82px;}
+.cont-wrap.drw_use_app.rep_02{background:url(../image/img_join_use_app_14.png) no-repeat center; background-color:#ffd41d; background-position-y:-82px;}
+.cont-wrap.drw_use_app.rep_03{background:url(../image/img_join_use_app_15.png) no-repeat center; background-color:#ffd41d; background-position-y:-82px;}
+
+
 .cont-wrap.drw_use_app .page_sta{display:flex; padding:0 24px; width:365px; margin:0 auto;}
 .cont-wrap.drw_use_app .page_sta .page_tit{white-space:nowrap; font-size:14px; line-height:18px; letter-spacing:-0.56px; color:#626572; font-weight:bold}
 .cont-wrap.drw_use_app .page_sta .page_line{width:157px; height:1px; border-top:1px solid rgba(98, 101, 114, 0.4); margin:0 17px 0 12px; position: relative; top:10px}
@@ -1587,6 +1599,46 @@ table .tit .circle{display:inline-block; width:16px; height:16px; background:#24
 .acc_02_cas_07 > p:nth-of-type(1){margin-top:8px; font-size:30px; line-height:42px; letter-spacing:-1.5px; font-weight:bold; position: absolute;}
 .acc_02_cas_07 > p:nth-of-type(2){margin-top:12px; font-size:18px; line-height:27px; letter-spacing:-0.36px; color:#242839; position: relative; top:135px}
 
+/* SMT_02_PIC_03 */
+.resist_pop{padding:11px 16px; background:#fff2bc; margin:0 16px; border-radius:9px;}
+.resist_pop > p{font-size:13px; line-height:18px; letter-spacing:-0.65px; color:#a16912; font-weight:500;}
+.resist_pop > p:nth-of-type(2){font-weight:400; white-space:nowrap;}
+.accident_ul{width:336px; height:248px; margin:16px 16px 116px 16px;}
+.accident_li{float: left; margin-right:8px; margin-bottom:8px; position:relative;}
+.accident_li > .car_img{width:160px; height:120px; border-radius:5px; background:#e8e8e8;}
+.accident_li > .car_img.img_photo_01{background:url(../image/img_photo_01.png);}
+.accident_li > .car_img.img_photo_02{background:url(../image/img_photo_02.png);}
+.accident_li > .car_img.img_photo_03{background:url(../image/img_photo_03.png);}
+.accident_li > .car_img.ico_alabum_thumbnail{background:url(../image/ico_alabum_thumbnail.svg) no-repeat center center; background-position-y:30px; background-color:#e8e8e8;}
+.accident_li > span{position:absolute; width:32px; height:32px; background:url(../image/btn_delete_remove_n.svg); right:8px; top:8px}
+.accident_li > p{position:absolute; top:70px; margin-left:37px; font-size:15px; line-height:22px; letter-spacing:-0.24px; color:#939393}
+
+/* MYP_MEM_01 */
+.myp.mem_01 .clip_card{width:328px; height:199px; background: linear-gradient(to bottom, #ffdd4a, #ffd41d); margin:0 16px; display:block; border-radius:12px; position: relative; box-shadow:0 2px 3px 0 rgb(214, 214, 214); margin:0 auto;}
+.myp.mem_01 .clip_card .img_clip_left{display:block; width:40px; height:40px; text-indent:-9999px; background:url(../image/img_clip_l.svg); left:-7px; top:-7px; position:absolute;}
+.myp.mem_01 .clip_card .img_clip_right{display:block; width:40px; height:40px; text-indent:-9999px; background:url(../image/img_clip_r.svg); right:-7px; bottom:-7px; position:absolute;}
+.myp.mem_01 .clip_card .img_logo_happycar{display:block; width:9px; height:69px; position:absolute; background:url(../image/img_logo_happycar.svg) no-repeat; right:16px; top:18px}
+.myp.mem_01 .clip_card .main_des{display:flex;}
+.myp.mem_01 .clip_card .main_des .membership_img{position:relative; margin-left:13px; top:-16px}
+.myp.mem_01 .clip_card .main_des .membership_img .vip{width:92px; height:98px; background:url(../image/img_membership_vip.svg);}
+.myp.mem_01 .clip_card .main_des .membership_img > p{font-size:10px; line-height:30px; letter-spacing:-0.15px; text-align:center; font-weight:bold; position: relative; top:-6px;}
+.myp.mem_01 .clip_card .main_des .membership_text{margin-top:24px; margin-left:34px;}
+.myp.mem_01 .clip_card .main_des .membership_text > p{font-size:24px; line-height:30px; letter-spacing:-0.36px; font-weight:bold;}
+.myp.mem_01 .clip_card .main_des .membership_text > div{margin-top:23px;}
+.myp.mem_01 .clip_card .main_des .membership_text > div > p{font-size:12px; line-height:22px; letter-spacing:-0.18px; font-weight:bold}
+.myp.mem_01 .clip_card .main_des .membership_text > div > p:nth-of-type(2){margin-top:3px;}
+.myp.mem_01 .clip_card .main_des .membership_text > div > p > span{display:inline-block; width:4px; height:4px; background-color:#a16912; border-radius:50%; position: relative; top:-3px; margin-right:3px}
+.myp.mem_01 .tip{margin:12px 15px 208px 15px;}
+.myp.mem_01 .fotter{height:156px; background:#f5f5f4;}
+.myp.mem_01 .fotter .membership_text{padding-top:28px; padding-left:16px; position:relative; border-top:1px solid #efefef}
+.myp.mem_01 .fotter .membership_text .tip_circle{position:absolute; top:-16px; background:#a16912; width:34px; height:34px; line-height:34px; text-align:center; border-radius:50%; font-size:12px; letter-spacing:-0.29px; color:#ffd41d}
+.myp.mem_01 .fotter .membership_text > p{font-size:15px; line-height:18px; letter-spacing:-0.3px; font-weight:bold; color:#a16912}
+.myp.mem_01 .fotter .membership_text > p > span{border-bottom: 1px solid #a16912; display:inline-block; line-height:17px;}
+.myp.mem_01 .fotter .membership_text > div{margin-top:16px;}
+.myp.mem_01 .fotter .membership_text > div > p{font-size:12px; line-height:22px; letter-spacing:-0.18px; font-weight:bold; color:#a16912}
+.myp.mem_01 .fotter .membership_text > div > p:nth-of-type(2){margin-top:3px; font-weight:500;}
+.myp.mem_01 .fotter .membership_text > div > p:nth-of-type(3){font-weight:500;}
+.myp.mem_01 .fotter .membership_text > div > p > span{display:inline-block; width:4px; height:4px; background-color:#a16912; border-radius:50%; position: relative; top:-3px; margin-right:3px}
 
 
 
@@ -1597,3 +1649,7 @@ table .tit .circle{display:inline-block; width:16px; height:16px; background:#24
 
 
 
+
+
+
+ 

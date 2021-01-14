@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" id="img_membership_vip" width="92" height="98" viewBox="0 0 92 98">
+    <defs>
+        <filter id="타원_956" width="92" height="92" x="0" y="6" filterUnits="userSpaceOnUse">
+            <feOffset dy="3"/>
+            <feGaussianBlur result="blur" stdDeviation="3"/>
+            <feFlood flood-color="#a16912" flood-opacity=".502"/>
+            <feComposite in2="blur" operator="in"/>
+            <feComposite in="SourceGraphic"/>
+        </filter>
+        <filter id="타원_956-2" width="92" height="92" x="0" y="0" filterUnits="userSpaceOnUse">
+            <feOffset dy="-3"/>
+            <feGaussianBlur result="blur-2" stdDeviation="3"/>
+            <feFlood flood-color="#ffe888"/>
+            <feComposite in2="blur-2" operator="in"/>
+            <feComposite in="SourceGraphic"/>
+        </filter>
+        <linearGradient id="linear-gradient" x1=".933" x2=".067" y1=".75" y2=".25" gradientUnits="objectBoundingBox">
+            <stop offset="0" stop-color="#4a392b"/>
+            <stop offset="1" stop-color="#fdd056"/>
+        </linearGradient>
+        <style>
+            .cls-2{fill:#242839}.cls-7{fill:none}
+        </style>
+    </defs>
+    <g filter="url(#타원_956)">
+        <circle id="타원_956-3" cx="37" cy="37" r="37" class="cls-2" transform="translate(9 12)"/>
+    </g>
+    <g filter="url(#타원_956-2)">
+        <circle id="타원_956-4" cx="37" cy="37" r="37" class="cls-2" transform="translate(9 12)"/>
+    </g>
+    <g id="그룹_42720" transform="translate(-12 -95)">
+        <path id="패스_34288" d="M36 0A36 36 0 1 1 0 36 36 36 0 0 1 36 0z" class="cls-2" transform="translate(22 108)"/>
+        <g id="ico_badge_vip" transform="translate(22 -447)">
+            <g id="그룹_42718" fill="#ffd41d" transform="translate(1.461)">
+                <path id="iconfinder_Crown_728988" d="M22.692 16.154a2.076 2.076 0 0 0-1.909 2.9l-2.938 1.259-2.458-4.423a2.077 2.077 0 1 0-2.008 0l-2.458 4.423-2.936-1.264a2.077 2.077 0 1 0-1.909 1.259 2.128 2.128 0 0 0 .466-.057l1.61 6.98v1.385A1.384 1.384 0 0 0 9.538 30h9.692a1.384 1.384 0 0 0 1.385-1.385v-1.384l1.611-6.98a2.034 2.034 0 0 0 .466.057 2.077 2.077 0 1 0 0-4.154zm-8.308-2.769a.692.692 0 1 1-.692.692.693.693 0 0 1 .693-.692zm-9 4.846a.692.692 0 1 1 .692.692.693.693 0 0 1-.691-.692zm13.847 10.384H9.538v-1.384h9.692zm.283-2.769H9.256L8.04 20.578l2.338 1a1.384 1.384 0 0 0 1.756-.6l2.251-4.051 2.251 4.051a1.384 1.384 0 0 0 1.756.6l2.338-1zm3.179-6.923a.692.692 0 1 1 .692-.692.693.693 0 0 1-.693.692z" transform="translate(20.039 557.5)"/>
+                <path id="패스_34287" d="M3077 8519.468l-2.828 4.9-3.876-1.222 1.274 7.266v2.076l4.87.521 6.343-.521.445-2.857 1.648-6.484-4.645 1.222z" opacity="0.6" transform="translate(-3043 -7946)"/>
+            </g>
+        </g>
+        <text id="VIP" fill="#fdd056" font-family="NotoSansCJKkr-Bold, Noto Sans CJK KR" font-size="15px" font-weight="700" letter-spacing="-0.024em" transform="translate(59 161)">
+            <tspan x="-11.752" y="0">VIP</tspan>
+        </text>
+    </g>
+    <g id="타원_976" transform="translate(-225.169 274.853)">
+        <circle id="타원_1460" cx="33" cy="33" r="33" class="cls-7" transform="translate(238.169 -258.853)"/>
+        <g id="타원_976-2" transform="translate(-.21 -.558)">
+            <circle id="타원_1461" cx="33" cy="33" r="33" class="cls-7" transform="translate(238.379 -258.295)"/>
+            <path id="패스_34291" fill="url(#linear-gradient)" d="M271.379-192.294a33.038 33.038 0 0 1-33-33 33.038 33.038 0 0 1 33-33 33.036 33.036 0 0 1 33 33 33.036 33.036 0 0 1-33 33zm0-64.8a31.836 31.836 0 0 0-31.8 31.8 31.835 31.835 0 0 0 31.8 31.8 31.836 31.836 0 0 0 31.8-31.8 31.837 31.837 0 0 0-31.8-31.806z"/>
+        </g>
+    </g>
+</svg>
