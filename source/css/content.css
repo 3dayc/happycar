@@ -1640,10 +1640,40 @@ table .tit .circle{display:inline-block; width:16px; height:16px; background:#24
 .myp.mem_01 .fotter .membership_text > div > p:nth-of-type(3){font-weight:500;}
 .myp.mem_01 .fotter .membership_text > div > p > span{display:inline-block; width:4px; height:4px; background-color:#a16912; border-radius:50%; position: relative; top:-3px; margin-right:3px}
 
+/* DRW_USE_PEN_01 */
+.drw_use_pen_01 .state-bar{height:48px; background:#e7e9f0; box-shadow:0 1px 2px 0 rgb(230, 230, 230); display:flex; padding:12px 18px; justify-content:space-between;}
+.drw_use_pen_01 .state-bar > p{position: relative; top:1px; font-size:15px; letter-spacing:-0.09px; opacity:0.7;}
+.drw_use_pen_01 .state-bar > p.active{opacity:1; font-weight:bold;}
+.drw_use_pen_01 .state-bar > div{border-top:1px solid rgba(112, 112, 112, 0.5); width:28px; height:1px; position: relative; top:13px}
+.drw_use_pen_01 .state-box{height:76px; border-radius:9px; margin:20px 16px 0 16px; padding-top:11px; padding-left:50px; background:url(../image/ico_caution.svg) no-repeat; background-position-x:12px; background-position-y:15px; background-color:#fff2bc;}
+.drw_use_pen_01 .state-box > p{font-size:13px; line-height:18px; letter-spacing:-0.52px; color:#a16912; white-space:nowrap;}
+.drw_use_pen_01 .state-ul{padding:0 16px;}
+.drw_use_pen_01 .state-li > p{margin-top:15px; padding-bottom:3px; font-size:13px; line-height:34px; letter-spacing:-0.08px; font-weight:bold;}
+.drw_use_pen_01 .state-li > .table > div{display:flex; border-bottom:1px solid rgba(26, 26, 26, 0.1);}
+.drw_use_pen_01 .state-li > .table.top-line01 > div{border-top:2px solid rgba(26, 26, 26, 0.8);}
+.drw_use_pen_01 .state-li > .table.top-line02 > div{border-top:1px solid rgba(26, 26, 26, 0.8);}
+.drw_use_pen_01 .state-li > .table:last-child{border-bottom:1px solid rgba(26, 26, 26, 0.5);}
+.drw_use_pen_01 .state-li > .table > div > p:nth-of-type(1){width:88px; background:rgba(74, 77, 90, 0.1); padding:11px 0 11px 16px; font-size:13px; line-height:19px; letter-spacing:-0.3px; color:rgba(74, 77, 90, 0.5); font-weight:bold}
+.drw_use_pen_01 .state-li > .table > div > p:nth-of-type(2){padding:11px 0 11px 17px; font-size:14px; line-height:20px; letter-spacing:-0.32px; color:#d94521; white-space:nowrap;}
+.drw_use_pen_01 .state-li > .table > div > p:nth-of-type(2) > span{font-weight:bold;}
+.drw_use_pen_01 .state-li > .table > div > p:nth-of-type(2).black > span{color:#2c2c2c}
+.drw_use_pen_01 .state-li > .table > div > .center{position: relative; top:9px}
+.drw_use_pen_01 .state-li > .text{margin:11px 12px; font-size:14px; line-height:20px; letter-spacing:-0.56px; color:#939393}
 
-
-
-
+/* drw_use_ins_01 */
+.drw_use_ins_01 .safeinfo{width:260px; height:200px; background:url(../image/img_safeinfo.svg);}
+.drw_use_ins_01 > p:nth-of-type(1){font-size:18px; line-height:30px; letter-spacing:-0.36px; margin:4px 0 0 20px; font-weight:bold; color:#231f20}
+.drw_use_ins_01 > p:nth-of-type(1) > span{background:rgba(255, 212, 29, 0.41); display:inline-block; line-height:15px; padding-bottom:3px;}
+.drw_use_ins_01 > p:nth-of-type(2){margin:12px 0 18px 20px; line-height:22px; letter-spacing:-0.56px; white-space:nowrap;}
+.drw_use_ins_01 .full-line{margin:0; border-top:1px solid rgba(147, 147, 147, 0.1)}
+.drw_use_ins_01 .insurance{padding:0 20px}
+.drw_use_ins_01 .insurance > p:nth-of-type(1){margin:22px 0 10px 0; font-weight:15px; line-height:28px; letter-spacing:-0.3px; color:#231f20; font-weight:bold;}
+.drw_use_ins_01 .insurance > div > div{display:flex;}
+.drw_use_ins_01 .insurance > div > div > p{font-size:14px; line-height:28px; letter-spacing:-0.28px; color:#626572; font-weight:500}
+.drw_use_ins_01 .insurance > div > div > p:nth-of-type(1){width:87px;}
+.drw_use_ins_01 .insurance > div > div > p:nth-of-type(2){color:#1a1a1a; font-weight:500}
+.drw_use_ins_01 .insurance > p:nth-of-type(2){font-weight:bold; font-size:15px; line-height:28px; letter-spacing: -0.3px; color:#231f20; margin-top:28px}
+.drw_use_ins_01 .insurance > p:nth-of-type(3){font-weight:500; font-size:14px; line-height:28px; letter-spacing: -0.28px; color:#1a1a1a; margin-top:8px}
 
 
 
